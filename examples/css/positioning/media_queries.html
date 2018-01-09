@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Media queries</title>
+    <style>
+        body {
+            background-color: #2db34a;
+        }
+
+        /* in print the page background is white and the navigation menu is hidden */
+        @media print {
+            body {
+                background-color: white;
+            }
+            nav {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Item #1</li>
+            <li>Item #2</li>
+            <li>Item #3</li>
+        </ul>
+    </nav>
+
+    <p>Lorem ipsum</p>
+</body>
+</html>

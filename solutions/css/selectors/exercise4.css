@@ -1,0 +1,24 @@
+ul ul {
+    color: blue;
+}
+
+ul ul ul {
+    list-style-type: none;
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+ul a {
+    color: red;
+}
+
+div a {
+    color: green;
+}
+
+div + div a {
+    color: purple;
+    background-color: yellow;
+}

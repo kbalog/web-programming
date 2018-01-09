@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Form styling with CSS</title>
+    <style>
+        label {
+            float: left;
+            clear: left;
+            width: 100px;
+        }
+
+        input {
+            display: block;
+            margin: 3px;
+        }
+
+        input[type=submit] {
+            margin-left: 100px; /* same as label width */
+        }
+    </style>
+</head>
+<body>
+<form action="">
+    <label for="username">User:</label><input type="text" name="username" id="username"/>
+    <label for="password">Password:</label><input type="password" name="pw" id="password"/>
+    <input type="submit" value="Login"/>
+</form>
+</body>
+</html>

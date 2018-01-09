@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example: Form controls</title>
+    <style>
+        label textarea {
+            vertical-align: middle;
+        }
+
+        div.sep {
+            height: 10px;
+        }
+    </style>
+</head>
+<body>
+<form action="">
+
+    <label>Name
+        <input type="text" name="name" size="20" placeholder="Firstname, lastname"/>
+    </label>
+
+    <div class="sep"></div>
+
+    <label>Quantity
+        <input type="number" name="points" size="3" min="0" max="100" step="10" value="30">
+    </label>
+
+    <div class="sep"></div>
+
+    <label>Email address
+        <input type="email" name="email" size="20" maxlength="35"/>
+    </label>
+
+    <div class="sep"></div>
+
+    <label>URL
+        <input type="url" name="myurl"/>
+    </label>
+
+    <div class="sep"></div>
+
+    <fieldset>
+        <legend>Delivery address</legend>
+        <label>City: <input type="text" name="city" size="10"/></label>
+        <label>Zip: <input type="text" name="zip" size="4"/></label>
+        <label>Street: <input type="text" name="street" size="20"/></label>
+        <label>House no: <input type="text" name="houseno" size="4"/></label>
+    </fieldset>
+
+    <div class="sep"></div>
+
+    <label>Comments
+        <textarea name="comment" cols="40" rows="3" placeholder="Feedback and suggestions are welcome"></textarea>
+    </label>
+
+    <div class="sep"></div>
+
+    <input type="submit" value="Submit"/>
+
+    <!--
+    <input type="image" src="images/next.jpg" width="100px" alt="Submit" />
+    -->
+
+</form>
+</body>
+</html>

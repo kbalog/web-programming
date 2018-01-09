@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #3: Subscription form (2)</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<form action="http://www3.ux.uis.no/~balog/dat310/formtest.php">
+    <fieldset>
+        <legend>Personal details</legend>
+        <label for="firstname">First name</label>
+        <input type="text" name="firstname" id="firstname" value="" size="20"/>
+        <br/>
+        <label for="lastname">Last name</label>
+        <input type="text" name="lastname" id="lastname" value="" size="20"/>
+        <br/>
+        <label for="email">Email address</label>
+        <input type="email" name="email" id="email" value="" size="20"/>
+        <br/>
+        <label>Gender</label>
+        <input type="radio" name="sex" value="male"/> Male
+        <input type="radio" name="sex" value="female"/> Female<br/>
+    </fieldset>
+    <fieldset>
+        <legend>Magazines</legend>
+        <input type="checkbox" name="mag_1" value="1">Stavanger Aftenblad<br/>
+        <input type="checkbox" name="mag_2" value="1">Teknisk Ukeblad<br/>
+        <input type="checkbox" name="mag_3" value="1">Se og Hør<br/>
+        <input type="checkbox" name="mag_4" value="1">Familien<br/>
+    </fieldset>
+    <fieldset>
+        <legend>Subscription</legend>
+        <label for="period">Period</label>
+        <select name="period" id="period">
+            <option value="6">6 months</option>
+            <option value="12">12 months</option>
+            <option value="18">18 months</option>
+            <option value="24">24 months</option>
+        </select>
+    </fieldset>
+    <input type="hidden" name="campaign_id" value="email_334" />
+    <div id="button">
+        <input type="submit" value="Subscribe"/>
+    </div>
+</form>
+</body>
+</html>

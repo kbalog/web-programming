@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example: Absolute positioning 2</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+        }
+        #box_1 {
+            background: #ee3e64;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #box_2 {
+            background: #44accf;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #box_3 {
+            background: #b7d84b;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        #box_4 {
+            background: #ebde52;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+
+        #container {
+            border: 1px solid black;
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="box_1"></div>
+        <div id="box_2"></div>
+        <div id="box_3"></div>
+        <div id="box_4"></div>
+    </div>
+</body>
+</html>

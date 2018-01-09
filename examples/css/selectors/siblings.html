@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: adjacent vs. general sibling selectors</title>
+    <style>
+        h1 + p {
+            color: red;
+        }
+
+        h1 ~ p {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<p>Par 1</p>
+<p>Par 2</p>
+<h1>Heading 1</h1>
+<p>Par 3</p>
+<p>Par 4</p>
+<p>Par 5</p>
+
+</body>
+</html>
