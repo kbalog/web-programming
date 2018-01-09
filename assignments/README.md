@@ -12,7 +12,7 @@ All questions related to assignments should be sent to dat310help@googlegroups.c
 
 ## Requirements
 
-  - You need to register at XXX by TBD.
+  - You need to register at the [Online course admin](http://bit.ly/uis-dat310) by 16/01 23:59.
   - 10 assignments in total
   - Each assignment is worth different amount of points
   - Binary assessments: approved (godkjent) or not approved (ikke godjkent)
