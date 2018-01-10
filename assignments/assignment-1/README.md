@@ -13,7 +13,7 @@
 	  - have some cells merged (using rowspan and/or colspan)
   *	`lists.html` that
 	  - includes both ordered and unordered lists
-	  - 	has at least 3 levels of indentation
+	  - has at least 3 levels of indentation
   *	`images.html` that
 	  - displays at least 3 different images arranged in a table
 	  - the table has two columns; the left column contains the image, the right column contains a caption or description
