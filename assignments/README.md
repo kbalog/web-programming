@@ -2,7 +2,7 @@
 
 | Assignment | Announced | Deadline | Points | Solution |
 | --- | --- | --- | --- | --- |
-| #1 HTML | 10/01 | 18/01 12:00 | 0.7p |  |
+| [#1 HTML](assignment-1/) | 10/01 | 18/01 12:00 | 0.7p |  |
 | #2 CSS | 17/01 | 25/01 12:00 | 0.7p |  |
 | #3 Website prototype | 24/01 | 08/02 12:00 | 1.4p |  |
 | #4 JavaScript | 31/01 | 15/02 12:00 | 1.3p |  |
