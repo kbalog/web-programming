@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example: Tables</title>
+    <style>
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 0.1em;  /* some extra spacing between cells */
+            border-bottom: 1px solid #cdcdcd;  /* horizontal dividers */
+        }
+        th {
+            text-align: left;  /* by default, heading cells are center-aligned */
+            height: 2em;
+            background-color: #ececec;
+            border-top: 1px solid #cdcdcd;
+        }
+        td {
+            height: 1.5em;
+        }
+        tr:hover {  /* make rows hoverable */
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th style="text-align: right;">Money</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+        <td style="text-align: right;">$100</td>
+    </tr>
+    <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+        <td style="text-align: right;">$150</td>
+    </tr>
+    <tr>
+        <td>Joe</td>
+        <td>Swanson</td>
+        <td style="text-align: right;">$300</td>
+    </tr>
+    <tr>
+        <td>Cleveland</td>
+        <td>Brown</td>
+        <td style="text-align: right;">$250</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
