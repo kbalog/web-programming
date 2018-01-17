@@ -1,6 +1,6 @@
 # Assignment 2 - CSS
 
-Complete the `styles.css` file such that `index.html` looks **exactly** as shown on `output.png`.
+Complete the `styles.css` file such that `index.html` looks **exactly** as shown on `output.png`.  These files can be found in your private GitHub repository (replace `{username}` with your GitHub user in `https://github.com/uis-dat310-spring2018/{username}-assignments`).
 You are not allowed to make any changes to the HTML file!
 
   *	General
@@ -35,7 +35,7 @@ Commit and push the changes you made to `styles.css` to GitHub.
 
 # Øving 2 - CSS
 
-Skriv CSS kode i `styles.css`, slik at når du åpner `index.html` i en nettleser, så vil det se ut som vist i `output.png` bildet. Dere skal ikke endre på koden i `index.html`, kun `styles.css`!
+Skriv CSS kode i `styles.css`, slik at når du åpner `index.html` i en nettleser, så vil det se ut som vist i `output.png` bildet. Disse filene finnes i ditt private GitHub repo (erstatt `{username}` med GitHub brukeren din i `https://github.com/uis-dat310-spring2018/{username}-assignments`). Dere skal ikke endre på koden i `index.html`, kun `styles.css`!
 
   *	Generelt
     -	Bakgrunnen til header og footer skal ha en brede tilsvarende skjermen.  
