@@ -3,7 +3,7 @@
 This repository is for the 2018 spring edition of the DAT310 Web programming course at the University of Stavanger.
 
   - [Assignments](assignments/) (and [how to hand them in on GitHub](HOWTO_GitHub.md))
-  - [Online course admin](http://bit.ly/uis-dat310) -- you need to **register by 16/01 23:59**
+  - [Online course admin](http://bit.ly/uis-dat310)
   - [List of useful resources](Resources.md)
   - [Exam information](Exam_info.md)
   - Student assistants contact: dat310help@googlegroups.com
@@ -36,7 +36,7 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 27/02 Tue | TBD | |
 | 28/02 Wed | TBD | |
 | 02/03 Fri | Lab | |  
-| 06/03 Tue | *No lecture* | |
+| 06/03 Tue | *No lecture (UiS Åpen dag)* | |
 | 07/03 Wed | TBD | |
 | 09/03 Fri | Lab | |
 | 13/03 Tue | TBD | |
