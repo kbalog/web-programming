@@ -17,6 +17,21 @@
                 display: none;
             }
         }
+
+        /* if the window size is smaller than 400px, then the background is different */
+        @media screen and (max-width: 400px) {
+            body {
+                background-color: yellow;
+            }
+        }
+
+        /* if the window size is smaller than 400px, then the background is different */
+        @media screen and (max-device-width: 400px) {
+            body {
+                background-color: purple;
+            }
+        }
+
     </style>
 </head>
 <body>
