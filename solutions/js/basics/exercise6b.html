@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Exercise #6b: Displaying transaction log</title>
+    <script src="exercise6.js"></script>
+    <script src="exercise6b.js"></script>
+    <style>
+        table {
+            text-align: left;
+            font-family: Verdana, Arial, sans-serif;
+        }
+        td {
+            padding: 0.2em;
+        }
+        .success0 {
+            background-color: #fdca96;
+        }
+        .success1 {
+            background-color: #b7d84b;
+        }
+    </style>
+</head>
+<body>
+<script>
+    // Code for testing the BankAccount class
+    var myAccount = new BankAccount("MyName", 1000);
+    myAccount.deposit(500);
+    myAccount.withdraw(2000);
+    myAccount.withdraw(1000);
+    myAccount.printTable();
+</script>
+</body>
+</html>

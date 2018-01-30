@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Form elements</title>
+    <script>
+        function processForm() {
+            var name = document.getElementById("name");
+            console.log("Name: " + name.value);
+
+            var country = document.getElementById("country");
+            for (var i = 0; i < country.length; i++) {
+                console.log("[" + country[i].value + "] " + country[i].text + (country[i].selected ? " selected" : ""));
+            }
+            console.log("Selected: " + country.options[country.selectedIndex].text);
+
+            var delivery = document.getElementsByName("delivery");
+            for (var i = 0; i < delivery.length; i++) {
+                console.log("[" + (delivery[i].checked ? "X" : " ") + "] " + delivery[i].value);
+            }
+
+            return false; // prevent the form from actually submitting
+        }
+    </script>
+</head>
+<body>
+<form name="test" action="" onsubmit="return processForm();">
+    <div>
+        <label>Name
+            <input type="text" name="name" id="name" size="20" placeholder="Firstname, lastname"/>
+        </label>
+    </div>
+    <div>
+        <label>Quantity
+            <input type="number" name="points" id="points" size="3" min="0" max="100" step="10" value="30"/>
+        </label>
+    </div>
+    <div>
+        <label>Country
+            <select name="country" id="country" onchange="processForm();">
+                <option value="--">Select</option>
+                <option value="NO">Norway</option>
+                <option value="SE">Sweden</option>
+                <option value="DK">Denmark</option>
+            </select>
+        </label>
+    </div>
+    <div>
+        <label>Delivery
+            <input type="radio" name="delivery" value="normal">Normal
+            <input type="radio" name="delivery" value="extra">Extra
+            <input type="radio" name="delivery" value="hyper">Hyper
+        </label>
+    </div>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

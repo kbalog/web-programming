@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Mouse events</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            float: left;
+            margin: 10px;
+            border: 1px solid black;
+        }
+
+        .red {
+            background-color: red;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .green {
+            background-color: green;
+        }
+    </style>
+    <script>
+        function myEvent(message) {
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+<div class="red" onmouseover="alert('red alert');"></div>
+<div class="blue" onclick="alert('blue clicked');"></div>
+<div class="green" ondblclick="myEvent('green double clicked');"></div>
+</body>
+</html>

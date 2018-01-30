@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Changing CSS properties</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+
+        .color {
+            background-color: yellow;
+        }
+
+        .border {
+            border: 3px double black;
+        }
+    </style>
+    <script>
+        function changeDiv(div) {
+            if (!div.classList.contains("color")) {
+                div.classList.add("color");
+            }
+            else {
+                if (!div.classList.contains("border")) {
+                    div.classList.add("border");
+                }
+                else {
+                    div.classList.remove("border");
+                }
+            }
+        }
+
+        function selectDiv(div) {
+            div.style.marginTop = "25px";
+        }
+
+        function deselectDiv(div) {
+            div.style.marginTop = "10px";
+        }
+
+        function init() {
+            var divs = document.getElementsByTagName("div");
+            for (var i = 0; i < divs.length; i++) {
+                divs[i].onclick = function () {
+                    changeDiv(this);
+                }
+                divs[i].onmouseover = function () {
+                    selectDiv(this);
+                }
+                divs[i].onmouseout = function () {
+                    deselectDiv(this);
+                }
+            }
+        }
+
+        window.onload = init;
+
+    </script>
+</head>
+<body>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>

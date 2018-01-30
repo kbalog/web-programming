@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Keyboard events</title>
+    <style>
+        textarea {
+            width: 600px;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function khandle(event) {
+            var msg = event.type
+                    + " keyCode=" + event.keyCode
+                    + " charCode=" + event.charCode
+                    + (event.shiftKey ? " +shift" : "")
+                    + (event.ctrlKey ? " +ctrl" : "")
+                    + (event.altKey ? " +alt" : "")
+                    + (event.metaKey ? " +meta" : "");
+            document.getElementById("log").innerHTML += msg + "\n";
+        }
+    </script>
+</head>
+<body>
+<form name="keyform">
+    Focus on the input below and press any key.<br/>
+    <input type="text" id="kinput" onkeydown="khandle(event);" onkeyup="khandle(event);"
+           onkeypress="khandle(event);"/><br/>
+    Log:<br/>
+    <textarea rows="18" id="log"></textarea>
+</form>
+</body>
+</html>

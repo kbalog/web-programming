@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: DOM elements</title>
+    <style>
+        article {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function addArticleHeader() {
+            // create a new heading
+            var h2 = document.createElement("h2");
+            // set the content of the new element
+            h2.innerHTML = "Article header";
+            // identify parent element
+            var art1 = document.getElementById("article1");
+            // append to parent element
+            art1.appendChild(h2);
+        }
+
+        function addNewArticle() {
+            var art2 = document.createElement("article");
+            var h2 = document.createElement("h2");
+            h2.innerHTML = "Second article";
+            var p = document.createElement("p");
+            // alternative way of setting the content (p.innerHTML could be used as well)
+            var text = document.createTextNode("It has some content too");
+            p.appendChild(text);
+            art2.appendChild(h2);
+            art2.appendChild(p);
+            // insert before article1
+            var art1 = document.getElementById("article1");
+            // insert article 2
+            document.body.insertBefore(art2, art1);
+            // replace article 1 with article 2
+            //art1.parentNode.replaceChild(art2, art1);
+        }
+
+        function removeArticle() {
+            var art1 = document.getElementById("article1");
+            art1.parentNode.removeChild(art1);
+        }
+
+        function insertToList() {
+            var newItem = document.createElement("li");
+            newItem.innerHTML = "Water";
+            // get the parent element
+            var list = document.getElementById("mylist");
+            // insert before the first child
+            list.insertBefore(newItem, list.children[0]);
+        }
+
+        function init() {
+            addArticleHeader();
+            addNewArticle();
+            //removeArticle();
+            insertToList();
+        }
+
+        window.onload = init;
+
+    </script>
+</head>
+<body>
+    <article id="article1"></article>
+    <ul id="mylist">
+        <li>Coffee</li>
+        <li>Tea</li>
+    </ul>
+</body>
+</html>

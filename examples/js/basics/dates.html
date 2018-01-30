@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Example: Date class</title>
+</head>
+<body>
+<script>
+    var today = new Date(); // current date
+    var dt1 = new Date(2013, 10, 9); // 2013-10-09
+    var dt2 = new Date();
+    dt2.setDate(dt2.getDate() + 5);  // 5 days into the future
+    if (dt2 > dt1) {
+        // note that getMonth() return a value between 0 and 11.
+        console.log(dt2.getDate() + "/" + (dt2.getMonth() + 1) + "/" + dt2.getFullYear());
+        console.log(dt2.toString());
+    }
+</script>
+</body>
+</html>

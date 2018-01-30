@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Mouse event logger</title>
+    <style>
+        div {
+            width: 600px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+
+        textarea {
+            width: 600px;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function mhandle(event) {
+            var msg = event.type
+                    + " button=" + event.button
+                    + " clientCoord=(" + event.clientX + ", " + event.clientY + ")"
+                    + " screenCoord=(" + event.screenX + ", " + event.screenY + ")"
+                    + (event.shiftKey ? " +shift" : "")
+                    + (event.ctrlKey ? " +ctrl" : "")
+                    + (event.altKey ? " +alt" : "")
+                    + (event.metaKey ? " +meta" : "");
+            document.getElementById("log").innerHTML += msg + "\n";
+        }
+    </script>
+</head>
+<body>
+Click within the yellow area;
+<div onclick="mhandle(event);"></div>
+<form name="mouseform">
+    Log:<br/>
+    <textarea rows="18" id="log"></textarea>
+</form>
+</body>
+</html>

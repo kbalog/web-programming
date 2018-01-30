@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Form events</title>
+    <script>
+        function setfocus(element) {
+            element.style.backgroundColor = "yellow";
+        }
+        function losefocus(element) {
+            element.style.backgroundColor = "white";
+        }
+        function input(element) {
+            console.log(element.name + " oninput: " + element.value);
+        }
+        function change(element) {
+            console.log(element.name + " onchange: " + element.value);
+        }
+    </script>
+</head>
+<body>
+<form name="test" onsubmit="alert('form submitted');">
+    <div>
+        <label>Name
+            <input type="text" name="name" size="20" placeholder="Firstname, lastname"
+                   onfocus="setfocus(this);"
+                   onblur="losefocus(this);"
+                   oninput="input(this);"
+                   onchange="change(this);"/>
+        </label>
+    </div>
+    <div>
+        <label>Quantity
+            <input type="number" name="points" size="3" min="0" max="100" step="10" value="30"
+                   onfocus="setfocus(this);"
+                   onblur="losefocus(this);"
+                   oninput="input(this);"
+                   onchange="change(this);"/>
+        </label>
+    </div>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: DOM traverse</title>
+    <script>
+        function traverse(element, level) {
+            var line = "";
+            // indentation
+            for (var i = 0; i < level; i++) {
+                line += "  ";
+            }
+            // print element
+            line += element.nodeName;
+            console.log(line);
+
+            // recursively traverse child elements
+            if (element.hasChildNodes()) {
+                for (var i = 0; i < element.children.length; i++) {
+                    traverse(element.children[i], level + 1);
+                }
+            }
+        }
+
+        window.onload = function () {
+            traverse(document.body, 0);
+        }
+    </script>
+</head>
+<body>
+<article id="article1"></article>
+<ul id="mylist">
+    <li>Coffee</li>
+    <li>Tea</li>
+</ul>
+<div>
+    <p>Some text</p>
+</div>
+</body>
+</html>

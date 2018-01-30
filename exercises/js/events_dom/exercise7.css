@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul#playlist {
+    border: 1px solid #a9a9a9;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul#playlist li {
+    border-bottom: 1px solid #a9a9a9;
+    padding: 10px;
+    background-image: linear-gradient(#f9f9f9, #e3e3e3);
+}
+
+ul#playlist li:last-child {
+    border-bottom: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ul#playlist li:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}

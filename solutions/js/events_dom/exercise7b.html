@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #7b: Advanced playlist</title>
+    <link rel="stylesheet" href="exercise7.css">
+    <script>
+        function handleButtonClick() {
+            var textInput = document.getElementById("songTextInput");
+            var songName = textInput.value;
+
+            if (songName == "") {
+                alert("Please enter a song");
+            }
+            else {
+                var li = document.createElement("li");
+                li.innerHTML = songName;
+                var ul = document.getElementById("playlist");
+                // del is an image
+                var del = document.createElement("img");
+                del.src = "images/delete.png";
+                del.className = "delete";
+                del.onclick = delSong;
+                li.appendChild(del);
+                ul.appendChild(li);
+            }
+        }
+
+        function delSong() {
+            // find the parent (li) element
+            var song = this.parentNode;
+            // delete the song (li) from the list (ul)
+            song.parentNode.removeChild(song);
+        }
+
+        window.onload = function () {
+            document.getElementById("addButton").onclick = handleButtonClick;
+
+        }
+    </script>
+</head>
+<body>
+
+<form>
+    <input type="text" id="songTextInput" size="40" placeholder="Song name">
+    <input type="button" id="addButton" value="Add Song">
+</form>
+
+<ul id="playlist">
+</ul>
+
+</body>
+</html>
+
