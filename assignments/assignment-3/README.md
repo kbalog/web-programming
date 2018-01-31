@@ -123,7 +123,7 @@ Under `samples/` mappen av startfilene (i din egen private GitHub repository) fi
         -	"Checkout" peker til checkout.html.
   *	Main
     -	Det skal være 100px vertikalt rom mellom headeren og toppen av main.
-    -	Skal være 90% bredden til siden og være sentrert. Det betyr at den skal automatisk tilpasse seg når sidestørrelsen forandres, men den skal ha en minimum bredde på 60px og en maksimum bredde på 1200px (se bildene under `samples/`).
+    -	Skal være 90% bredden til siden og være sentrert. Det betyr at den skal automatisk tilpasse seg når sidestørrelsen forandres, men den skal ha en minimum bredde på 600px og en maksimum bredde på 1200px (se bildene under `samples/`).
     -	Hovedoverskriften (h1) i main skal ha en bakgrunnsfarge, 1.2em font størrelse og 5px padding rundt.
     -	Innrammede bokser har en solid 1px border og 5px padding. Font størrelse 0.8em.
   *	Footer
