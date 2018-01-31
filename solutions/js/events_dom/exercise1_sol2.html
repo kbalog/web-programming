@@ -19,13 +19,16 @@
         function settext(element, text) {
             element.innerHTML = text;
         }
+
+        window.onload = function () {
+            var mydiv = document.getElementById("mydiv");
+            mydiv.onmouseover = function () {settext(mydiv, 'Can I help you?');}
+            mydiv.onmouseout = function () {settext(this, 'Hello world!');}
+        }
+
     </script>
 </head>
 <body>
-<div id="mydiv"
-     onmouseover="settext(this, 'Can I help you?');"
-     onmouseout="settext(this, 'Hello world!');">
-    Hello world!
-</div>
+<div id="mydiv">Hello world!</div>
 </body>
 </html>
