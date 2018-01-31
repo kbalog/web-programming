@@ -65,12 +65,6 @@
 ![Exercise6](images/exercise6.png)
 
 
-## Exercise #6b: Advanced content show/hide
-
-  - Can you solve the previous exercise using only JS, without making any changes to [this HTML source](exercise6b.html) (where the IDs have been removed)?
-  - You may assume that all article tags have the same internal structure.
-
-
 ## Exercise #7: Simple playlist
 
   - Create a simple playlist application where users can add songs to a list. The song here is just a non-empty string.

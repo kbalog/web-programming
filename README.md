@@ -12,8 +12,8 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 
 | Date | Topic | Resources |
 | --- | --- | --- |
-| 09/01 Tue | HTML (basics) / Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
-| 10/01 Wed | HTML (basics) / Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
+| 09/01 Tue | HTML basics Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
+| 10/01 Wed | HTML basics Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-html), [examples](examples/html/basics), [exercises](exercises/html/basics), [solutions](solutions/html/basics) |
 | 12/01 Fri | Lab | |
 | 16/01 Tue | CSS Part I. (properties) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-i), [examples](examples/css/properties), [exercises](exercises/css/properties), [solutions](solutions/css/properties) |
 | 17/01 Wed | CSS Part II. (selectors) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-ii), [examples](examples/css/selectors), [exercises](exercises/css/selectors), [solutions](solutions/css/selectors) |
@@ -24,8 +24,8 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 30/01 Tue | JavaScript Part I. (basics) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-i), [examples](examples/js/basics), [exercises](exercises/js/basics), [solutions](solutions/js/basics) |
 | 31/01 Wed | JavaScript Part II. (events, DOM) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-ii), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
 | 02/02 Fri | Lab | |
-| 06/02 Tue | TBD | |
-| 07/02 Wed | TBD | |
+| 06/02 Tue | JavaScript / jQuery Part I. | |
+| 07/02 Wed | jQuery Part II. | |
 | 09/02 Fri | Lab | |
 | 13/02 Tue | TBD | |
 | 14/02 Wed | TBD | |
