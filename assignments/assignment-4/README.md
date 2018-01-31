@@ -1,6 +1,7 @@
 # Assignment 4 - JavaScript
 
 Create an address book application using JavaScript (plus HTML and CSS).
+(It is not allowed to use jQuery!)
 
 The **required functionality** is the following:
 
@@ -37,6 +38,7 @@ Commit and push the files to GitHub.
 # Øving 4 - JavaScript
 
 Lag en kontaktlisteapplikasjon ved hjelp av JavaScript (og HTML og CSS).
+(Det er ikke lov å bruke jQuery!)
 
 Følgende funksjonalitet er **påkrevd**:
 
