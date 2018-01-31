@@ -35,7 +35,7 @@ Under the `samples/` folder of the starting files (in your private GitHub reposi
         -	"Checkout" points to checkout.html.
   *	**Main**
     -	There has to be 100px vertical space between the header and the top of the main area.
-    -	The main area is 90% of the width of the page and is center-aligned. That means it resizes automatically when the window is resized, but has a minimum width of 600px and a maximum width of 1200px (see the screenshots under `samples/`).
+    -	The main area is 90% of the width of the page and is center-aligned. That means it resizes automatically when the window is resized, but has a minimum width of 800px and a maximum width of 1200px (see the screenshots under `samples/`).
     -	The main header (h1) inside main has a background color, 1.2em font size, and 5px padding around.
     -	Framed boxes have a solid 1px border and 5px padding. The font-size is 0.8em.
   *	**Footer**
@@ -123,7 +123,7 @@ Under `samples/` mappen av startfilene (i din egen private GitHub repository) fi
         -	"Checkout" peker til checkout.html.
   *	Main
     -	Det skal være 100px vertikalt rom mellom headeren og toppen av main.
-    -	Skal være 90% bredden til siden og være sentrert. Det betyr at den skal automatisk tilpasse seg når sidestørrelsen forandres, men den skal ha en minimum bredde på 600px og en maksimum bredde på 1200px (se bildene under `samples/`).
+    -	Skal være 90% bredden til siden og være sentrert. Det betyr at den skal automatisk tilpasse seg når sidestørrelsen forandres, men den skal ha en minimum bredde på 800px og en maksimum bredde på 1200px (se bildene under `samples/`).
     -	Hovedoverskriften (h1) i main skal ha en bakgrunnsfarge, 1.2em font størrelse og 5px padding rundt.
     -	Innrammede bokser har en solid 1px border og 5px padding. Font størrelse 0.8em.
   *	Footer
