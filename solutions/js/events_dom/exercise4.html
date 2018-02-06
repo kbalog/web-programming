@@ -18,13 +18,13 @@
         function changeFontFamily() {
             var text = document.getElementById("text");
             var ff = document.getElementById("font_family");
-            text.style.fontFamily = ff.options[ff.selectedIndex].value;
+            text.style.fontFamily = ff.value;
         }
 
         function changeFontSize() {
             var text = document.getElementById("text");
             var fs = document.getElementById("font_size");
-            text.style.fontSize = fs.options[fs.selectedIndex].value;
+            text.style.fontSize = fs.value;
         }
 
         function changeFontItalic() {
