@@ -5,7 +5,7 @@
 | [#1 HTML](assignment-1/) | 10/01 | 18/01 12:00 | 0.7p |  |
 | [#2 CSS](assignment-2/) | 17/01 | 25/01 12:00 | 0.7p |  |
 | [#3 Booking prototype](assignment-3/) | 24/01 | 08/02 12:00 | 1.4p |  |
-| [#4 JavaScript](assignment-3/) | 31/01 | 15/02 12:00 | 1.3p |  |
+| [#4 JavaScript](assignment-4/) | 31/01 | 15/02 12:00 | 1.3p |  |
 | #5 jQuery | 07/02 |22/02 12:00 | 1.3p |  |
 | ... |  |  |  |  |
 
