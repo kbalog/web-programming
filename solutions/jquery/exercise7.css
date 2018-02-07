@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.err {
+    color: red;
+    font-size: 0.7em;
+}

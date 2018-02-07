@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector example #2 using regular JavaScript</title>
+    <style>
+        p {
+            background-color: #ececec;
+            padding: 0.2em;
+            margin: 1em;
+        }
+    </style>
+    <script>
+        function init() {
+            var divs = document.getElementsByTagName("div");
+            var x = divs[0].childNodes;
+            for (var i = 0; i < x.length; i++) {
+                if (x[i].tagName == "P" && x[i].classList.contains("clickable")) {
+                    x[i].onclick = function () {
+                        alert(this.innerHTML);
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body onload="init()">
+<div>
+    <p class="clickable">I./1st par</p>
+    <p>I./2nd par</p>
+    <p class="clickable">I./3rd par</p>
+</div>
+<div>
+    <p>II./1st par</p>
+    <p>II./2nd par</p>
+    <p>II./3rd par</p>
+</div>
+</body>
+</html>

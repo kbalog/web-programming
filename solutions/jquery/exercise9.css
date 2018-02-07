@@ -1,0 +1,17 @@
+#countdown {
+    margin: 50px auto;
+    width: 300px;
+    font-size: 3em;
+    display: none;  /* hidden by default */
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#timer {
+    width: 100%;
+    border: 1px solid black;
+}
+
+#progressbar {
+    width: 100%;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Events example #1</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid grey;
+            margin: 10px;
+        }
+        #red {
+            background-color: red;
+        }
+        #blue {
+            background-color: blue;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("div").click(function () {
+                alert("Clicked a square!");
+            });
+            $("#red").mouseenter(function (){
+                console.log("You entered the red square!");
+            });
+            $("#red").mouseleave(function (){
+                console.log("You left the red square!");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="red"></div>
+    <div id="blue"></div>
+</body>
+</html>

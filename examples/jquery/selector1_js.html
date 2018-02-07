@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector example #1 using regular JavaScript</title>
+    <style>
+        p {
+            background-color: #ececec;
+            padding: 0.2em;
+            margin: 1em;
+        }
+    </style>
+    <script>
+        function init() {
+            var x = document.getElementsByTagName("p");
+            for (var i = 0; i < x.length; i++) {
+                x[i].onclick = function() {
+                    alert(this.innerHTML);
+                }
+            }
+        }
+    </script>
+</head>
+<body onload="init()">
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+    <p>Third paragraph</p>
+</body>
+</html>

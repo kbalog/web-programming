@@ -25,10 +25,10 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 31/01 Wed | JavaScript Part II. (events, DOM) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-ii), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
 | 02/02 Fri | Lab | |
 | 06/02 Tue | JavaScript Part II. cont'd | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-ii), [examples](examples/js/events_dom), [exercises](exercises/js/events_dom), [solutions](solutions/js/events_dom) |
-| 07/02 Wed | jQuery | |
+| 07/02 Wed | jQuery | [slides](https://speakerdeck.com/kbalog/web-programming-jquery), [examples](examples/jquery), [exercises](exercises/jquery), [solutions](solutions/jquery) |
 | 09/02 Fri | Lab | |
-| 13/02 Tue | Extra lab time | |
-| 14/02 Wed | Extra lab time | |
+| 13/02 Tue | Lab (extra time for assignments) | |
+| 14/02 Wed | Lab (extra time for assignments) | |
 | 16/02 Fri | Lab | |
 | 20/02 Tue | Midterm trial exam Part I. | |
 | 21/02 Wed | Midterm trial exam Part II. | |

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Methods example #1</title>
+    <style>
+        p {
+            width: 200px;
+            background-color: #ececec;
+            border: 1px solid grey;
+            display: none;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#check").click(function() {
+                $("#selected").show().html($("#name").val());
+            });
+        });
+    </script>
+</head>
+<body>
+<form action="">
+    <label>Name
+        <input type="text" name="name" id="name" size="20"/>
+    </label>
+    <input type="button" id="check" value="Check"/>
+</form>
+<p id="selected"></p>
+</body>
+</html>

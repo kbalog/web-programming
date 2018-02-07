@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise #7: Input check</title>
+    <link rel="stylesheet" href="exercise7.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="exercise7.js"></script>
+</head>
+<body>
+
+<form action="">
+    <table>
+        <tr>
+            <td>Password (min 6 characters):</td>
+            <td><input type="password" id="password1" size="10" placeholder="Password"></td>
+            <td>
+                <div id="pw1_check" class="err"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>Repeat password:</td>
+            <td><input type="password" id="password2" size="10" placeholder="Password"></td>
+            <td>
+                <div id="pw2_check" class="err"></div>
+            </td>
+        </tr>
+    </table>
+
+    <input type="submit" value="Submit" id="submitBtn" style="display:none"/>
+</form>
+
+</body>
+</html>
+

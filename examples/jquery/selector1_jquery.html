@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector example #1 using jQuery</title>
+    <style>
+        p {
+            background-color: #ececec;
+            padding: 0.2em;
+            margin: 1em;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("p").click(function () {
+                alert($(this).html());
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+    <p>Third paragraph</p>
+</body>
+</html>

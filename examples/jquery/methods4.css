@@ -1,0 +1,31 @@
+* {
+    font-family: Georgia, serif;    
+}
+
+.content {
+    width: 400px;
+    border: 1px solid grey;
+    background-color: #ececec;
+    position: relative;
+    margin: 5px;
+}
+
+.content h2 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.content .showlink {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.content .text {
+    background-color: white;
+    padding: 10px;
+    font-family: Verdana, sans-serif;
+    font-size: 0.9em;
+    color: #a9a9a9;
+}

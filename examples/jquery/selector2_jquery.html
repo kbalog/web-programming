@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Selector example #2 using jQuery</title>
+    <style>
+        p {
+            background-color: #ececec;
+            padding: 0.2em;
+            margin: 1em;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("div:first p.clickable").click(function () {
+                alert($(this).html());
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    <p class="clickable">I./1st par</p>
+    <p>I./2nd par</p>
+    <p class="clickable">I./3rd par</p>
+</div>
+<div>
+    <p>II./1st par</p>
+    <p>II./2nd par</p>
+    <p>II./3rd par</p>
+</div>
+</body>
+</html>

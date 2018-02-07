@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example: Creating a new HTML element</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <style>
+        img {
+            display: block;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("#add_p").click(function () {
+                var p = $("<p></p>").text("Some text");
+                $("body").append(p);
+            });
+            $("#add_img").click(function () {
+                var url = "https://cdn3.iconfinder.com/data/icons/lightly-icons/30/happy-480.png";
+                var img = $("<img>").attr("src", url).attr("alt", "Random image").attr("width", "60px");
+                $("body").append(img);
+            });
+        });
+    </script>
+</head>
+<body>
+    <button type="button" id="add_p">Add paragraph</button>
+    <button type="button" id="add_img">Add image</button>
+</body>
+</html>

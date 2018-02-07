@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #9: Countdown timer</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="exercise9.js"></script>
+    <link rel="stylesheet" href="exercise9.css">
+</head>
+<body>
+<form name="countdown_form" action="">
+    <select name="minutes" id="minutes">
+        <option value="1">1 minute</option>
+        <option value="3">3 minutes</option>
+        <option value="5">5 minutes</option>
+        <option value="10">10 minutes</option>
+        <option value="15">15 minutes</option>
+    </select>
+    <input type="submit" value="Go!">
+</form>
+<div id="countdown">
+    <div id="timer">MM:SS</div>
+    <progress id="progressbar" value="100" max="100"></progress>
+</div>
+</body>
+</html>

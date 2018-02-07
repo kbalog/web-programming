@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Methods example #2</title>
+    <style>
+        div {
+            border: 1px solid grey;
+            margin: 10px;
+            background-color: blue;
+            float: left;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+        }
+        .red {
+            background-color: red;
+        }
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("div").addClass("square");
+            $("div").mouseenter(function () {
+                $(this).css("border", "2px double black");
+            });
+            $("div").mouseleave(function () {
+                $(this).css("border", "1px solid grey");
+            });
+            $("div").click(function () {
+                $(this).toggleClass("red");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div></div>
+    <div></div>
+    <div></div>
+</body>
+</html>

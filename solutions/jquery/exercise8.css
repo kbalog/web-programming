@@ -1,0 +1,19 @@
+#cardboard {
+    overflow: auto;
+    padding: 10px;
+    background-color: #ececec;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    background-color: white;
+    float: left;
+    margin: 5px;
+}
+
+.clearleft {
+    clear: left;
+}
