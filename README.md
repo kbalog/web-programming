@@ -30,8 +30,8 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 13/02 Tue | Extra lab time | |
 | 14/02 Wed | Extra lab time | |
 | 16/02 Fri | Lab | |
-| 20/02 Tue | TBD | |
-| 21/02 Wed | TBD | |
+| 20/02 Tue | Midterm trial exam Part I. | |
+| 21/02 Wed | Midterm trial exam Part II. | |
 | 23/02 Fri | Lab | |
 | 27/02 Tue | TBD | |
 | 28/02 Wed | TBD | |
