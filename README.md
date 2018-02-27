@@ -33,24 +33,24 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 20/02 Tue | Midterm trial exam Part I. | |
 | 21/02 Wed | Midterm trial exam Part II. | |
 | 23/02 Fri | Lab | |
-| 27/02 Tue | TBD | |
-| 28/02 Wed | TBD | |
+| 27/02 Tue | Python Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-i), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
+| 28/02 Wed | Python Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-ii), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
 | 02/03 Fri | Lab | |  
 | 06/03 Tue | *No lecture (UiS Åpen dag)* | |
-| 07/03 Wed | TBD | |
+| 07/03 Wed | Web protocols | |
 | 09/03 Fri | Lab | |
-| 13/03 Tue | TBD | |
-| 14/03 Wed | TBD | |
+| 13/03 Tue | *No lecture* | |
+| 14/03 Wed | Server-side programming I. (handling requests) | |
 | 16/03 Fri | Lab | |
-| 20/03 Tue | TBD | |
-| 21/03 Wed | TBD | |
+| 20/03 Tue | Server-side programming II. (templating) | |
+| 21/03 Wed | Server-side programming III. (MySQL) | |
 | 23/03 Fri | Lab | |
 | Easter break |
-| 03/04 Tue | TBD | |
-| 04/04 Wed | TBD | |
+| 03/04 Tue | Server-side programming IV. (cookies and sessions) | |
+| 04/04 Wed | AJAX | |
 | 06/04 Fri | Lab | |
-| 10/04 Tue | TBD | |
-| 11/04 Wed | TBD | |
+| 10/04 Tue | Bootstrap | |
+| 11/04 Wed | Web APIs | |
 | 13/04 Fri | Lab | |
 | 17/04 Tue | TBD | |
 | 18/04 Wed | TBD | |
