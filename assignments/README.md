@@ -7,8 +7,11 @@
 | [#3 Booking prototype](assignment-3/) | 24/01 | 08/02 12:00 | 1.4p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-3) |
 | [#4 JavaScript](assignment-4/) | 31/01 | 15/02 12:00 | 1.3p |  |
 | [#5 jQuery](assignment-5/) | 07/02 |22/02 12:00 | 1.3p |  |
-| #6 Python | 28/02 | 08/03 12:00 | 0.6p |  |
-| ... |  |  |  |  |
+| [#6 Gradebook](assignment-6/) | 28/02 | 08/03 12:00 | 0.7p |  |
+| #7 Circuit Wars | 07/03 | 22/03 12:00 | 1p |  |
+| #8 Booking site | 21/03  | 12/04 12:00 | 1.4p |  |
+| #9 AJAX | 04/04 | 12/04 12:00 | 0.9p |  |
+| #10 Booking admin | 11/04 | 26/04 12:00 | 1.4p |  |
 
 All questions related to assignments should be sent to dat310help@googlegroups.com.
 
