@@ -33,8 +33,8 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 20/02 Tue | Midterm trial exam Part I. | |
 | 21/02 Wed | Midterm trial exam Part II. | |
 | 23/02 Fri | Lab | |
-| 27/02 Tue | Python Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-i), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
-| 28/02 Wed | Python Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-ii), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
+| 27/02 Tue | Python Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-i), [examples](examples/python/basics), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
+| 28/02 Wed | Python Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-python-part-ii), [examples](examples/python/basics), [exercises](exercises/python/basics), [solutions](solutions/python/basics) |
 | 02/03 Fri | Lab | |  
 | 06/03 Tue | *No lecture (UiS Åpen dag)* | |
 | 07/03 Wed | Web protocols | |
