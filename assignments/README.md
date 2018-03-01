@@ -5,7 +5,7 @@
 | [#1 HTML](assignment-1/) | 10/01 | 18/01 12:00 | 0.7p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-1)  |
 | [#2 CSS](assignment-2/) | 17/01 | 25/01 12:00 | 0.7p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-2) |
 | [#3 Booking prototype](assignment-3/) | 24/01 | 08/02 12:00 | 1.4p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-3) |
-| [#4 JavaScript](assignment-4/) | 31/01 | 15/02 12:00 | 1.3p |  |
+| [#4 JavaScript](assignment-4/) | 31/01 | 15/02 12:00 | 1.3p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-4) |
 | [#5 jQuery](assignment-5/) | 07/02 |22/02 12:00 | 1.3p |  |
 | [#6 Gradebook](assignment-6/) | 28/02 | 08/03 12:00 | 0.7p |  |
 | #7 Circuit Wars | 07/03 | 22/03 12:00 | 1p |  |
