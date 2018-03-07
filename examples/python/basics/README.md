@@ -6,6 +6,7 @@ These examples are made available as Jupyter notebooks.
   * [Lists](Lists.ipynb)
   * [Dicts](Dicts.ipynb)
   * [Functions](Functions.ipynb)
+  * [JSON](JSON.ipynb)
 
 These are rendered on the GitHub web interface, but are not interactive.
 
