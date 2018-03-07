@@ -8,7 +8,7 @@
 | [#4 JavaScript](assignment-4/) | 31/01 | 15/02 12:00 | 1.3p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-4) |
 | [#5 jQuery](assignment-5/) | 07/02 |22/02 12:00 | 1.3p |  |
 | [#6 Gradebook](assignment-6/) | 28/02 | 08/03 12:00 | 0.7p |  |
-| #7 Circuit Wars | 07/03 | 22/03 12:00 | 1p |  |
+| [#7 Circuit Wars](assignment-7/) | 07/03 | 29/03 12:00 | 1p |  |
 | #8 Booking site | 21/03  | 12/04 12:00 | 1.4p |  |
 | #9 AJAX | 04/04 | 12/04 12:00 | 0.9p |  |
 | #10 Booking admin | 11/04 | 26/04 12:00 | 1.4p |  |

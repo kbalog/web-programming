@@ -14,6 +14,8 @@ There is no possibility of a revision on this assignment.
 
 There will be no Norwegian translation for this assignment.
 
+During the Friday labs, it is be possible to practice and compete against AIs of various difficulty levels. Ask the student assistants if you want to make use of this opportunity. (Note that you'll need to be present at the lab, this cannot be done remotely.)
+
 
 ## Objective
 
