@@ -2,7 +2,7 @@
 
 ## Exercise #0: Test HTTP server
 
-Launch the [example Python HTTP server](../) and test it by making a request to it both from a browser and using curl.
+Launch the [example Python HTTP server](../../../examples/python/http/server.py) and test it by making a request to it both from a browser and using curl.
 
 
 ## Exercise #1: POST requests
