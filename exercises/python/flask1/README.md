@@ -4,7 +4,7 @@ Documentation: [Flask quickstart](http://flask.pocoo.org/docs/0.12/quickstart/#q
 
 ## Exercise #0: Test Flask Application
 
-Launch the [minimalistic Flask application](../../../examples/python/flask/0_minimal) and test it by making a request to it both from a browser (http://localhost:5000).
+Launch the [minimalistic Flask application](../../../examples/python/flask/0_minimal/app.py) and test it by making a request to it both from a browser (http://localhost:5000).
 
 
 ## Exercise #1: Post code lookup service
