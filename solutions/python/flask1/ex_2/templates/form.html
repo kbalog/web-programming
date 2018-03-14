@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+
+    <form action="{{ url_for("reg") }}" method="POST">
+        <label>Name: <input type="text" name="name"></label><br />
+        <label>Email:<input type="email" name="email"></label><br />
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>

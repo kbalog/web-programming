@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #1: Remembering user details</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+</head>
+<body>
+
+<header>
+    {% if name and email %}
+        Hello <strong>{{ name }}</strong> ({{ email }}) | <a href="{{ url_for("forget") }}">forget me</a>
+    {% else %}
+        <form action="{{ url_for("save") }}" method="POST">
+            <label>Name: <input type="text" name="name" size="20" required></label>
+            <label>Email: <input type="email" name="email" size="20" required></label>
+            <input type="submit" value="Remember"/>
+        </form>
+    {% endif %}
+</header>
+
+<main>
+    {% with errors = get_flashed_messages(category_filter=["error"]) %}
+        {% if errors %}
+            <div class="error">
+                <ul>
+                    {% for msg in errors %}
+                        <li>{{ msg }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    {% with messages = get_flashed_messages(category_filter=["success"]) %}
+        {% if messages %}
+            <div class="success">
+                <ul>
+                    {% for msg in messages %}
+                        <li>{{ msg }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
+    {% endwith %}
+
+    The main content comes here. Lorem ipsum...
+</main>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <p>File <a href="{{ url_for("uploaded_file", filename=filename) }}">{{ filename }}</a> has been uploaded.</p>
+    <p>Back to <a href="{{ url_for("index") }}">upload form</a></p>
+
+{% endblock %}

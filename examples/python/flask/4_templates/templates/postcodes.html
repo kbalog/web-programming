@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Postcodes</title>
+</head>
+<body>
+
+<dl>
+{% for key, value in postcodes.items() %}
+    <dt>{{ key|e }}</dt>
+    <dd>{% if loop.first %}<strong>{{ value|e }}</strong>{% else %}{{ value|e }}{% endif %}</dd>
+{% endfor %}
+</dl>
+
+</body>
+</html>

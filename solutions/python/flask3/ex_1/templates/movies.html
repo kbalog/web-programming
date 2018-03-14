@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top movies</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Rank</th>
+        <th>Title</th>
+        <th>Year</th>
+        <th>Rating</th>
+        <th>About</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for movie in movies|sort(attribute='rating', reverse=True) %}
+        <tr class="{{ loop.cycle('even', 'odd') }}">
+            <td>#{{ loop.index }}</td>
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.year }}</td>
+            <td>{{ movie.rating }}</td>
+            <td>{{ movie.synopsis|default("<em>No synopsis is available</em>", true)|safe|truncate(80) }}
+                <br /><a href="http://www.imdb.com/title/{{ movie.imdb_id }}" target="_blank">http://www.imdb.com/title/{{ movie.imdb_id }}</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>

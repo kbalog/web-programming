@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Listing all postcodes</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Postcode</th>
+        <th>Location</th>
+        <th>Operations</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for pc in postcodes %}
+    <tr>
+        <td>{{ pc.postcode }}</td>
+        <td>{{ pc.location }}</td>
+        <td><a href="{{ url_for("delete", postcode=pc["postcode"]) }}">Delete</a></td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,15 @@
+* {
+    font-family: Verdana, Arial, sans-serif;;
+}
+
+.even {
+    background-color: #ECECEC;
+}
+
+.odd {
+    background-color: #CCCCCC;
+}
+
+a:visited {
+    color: blue;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #2: Shopping cart</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+</head>
+<body>
+
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <div class="success">
+            {% for msg in messages %}
+                {{ msg }}
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
+
+
+<h2>Cart contents</h2>
+<table>
+    <thead>
+    <tr>
+        <th>Product ID</th>
+        <th>Quantity</th>
+        <th>Operations</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for product_id, qt in cart.items() %}
+        <tr>
+            <td>{{ product_id }}</td>
+            <td>{{ qt }}</td>
+            <td><a href="{{ url_for("remove") }}?product_id={{ product_id }}">remove</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+<h2>Add product to cart</h2>
+<form action="{{ url_for("add") }}" method="POST">
+    <label>Product ID <input type="text" name="product_id" size="5"></label>
+    <label>Quantity <input type="number" name="qt" min="1" max="100"></label>
+    <input type="submit" value="Add to cart"/>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+<form action="{{ url_for("do_add") }}" method="POST">
+    <label>Postcode: <input type="text" name="postcode" size="4"></label><br />
+    <label>Location: <input type="text" name="location" size="20"></label><br />
+    <input type="Submit" value="Add" />
+</form>
+{% endblock %}

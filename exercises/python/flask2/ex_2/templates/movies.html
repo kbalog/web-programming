@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top movies</title>
+    <style>
+        .even {
+            background-color: #ECECEC;
+        }
+        .odd {
+            background-color: #CCCCCC;
+        }
+        a:visited {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<form action="/">
+    <label>Search:<input type="text" name="query" size="20"></label>
+    <label>From: <input type="number" name="year_from" min="1970" max="2017"></label>
+    <label>To: <input type="number" name="year_to" min="1970" max="2017"></label>
+    <input type="submit" value="Search">
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>Rank</th>
+        <th>Title</th>
+        <th>Year</th>
+        <th>Rating</th>
+        <th>About</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for movie in movies|sort(attribute='rating', reverse=True) %}
+        <tr class="{{ loop.cycle('even', 'odd') }}">
+            <td>#{{ loop.index }}</td>
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.year }}</td>
+            <td>{{ movie.rating }}</td>
+            <td>{{ movie.synopsis|default("<em>No synopsis is available</em>")|safe|truncate(80) }}
+                <br />{{ movie.url|urlize(target="_blank") }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>

@@ -40,13 +40,13 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 07/03 Wed | Web protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols), [examples](examples/python/http), [exercises](exercises/python/http), [solutions](solutions/python/http) |
 | 09/03 Fri | Lab | |
 | 13/03 Tue | *No lecture* | |
-| 14/03 Wed | Server-side programming I. (handling requests) | |
+| 14/03 Wed | Server-side programming I. (handling requests) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-i), [examples](examples/python/flask), [exercises](exercises/python/flask1), [solutions](solutions/python/flask1) |
 | 16/03 Fri | Lab | |
-| 20/03 Tue | Server-side programming II. (templating) | |
-| 21/03 Wed | Server-side programming III. (MySQL) | |
+| 20/03 Tue | Server-side programming II. (templating) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-ii), [examples](examples/python/flask), [exercises](exercises/python/flask2), [solutions](solutions/python/flask2) |
+| 21/03 Wed | Server-side programming III. (MySQL) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-iii), [examples](examples/python/flask), [exercises](exercises/python/flask3), [solutions](solutions/python/flask3) |
 | 23/03 Fri | Lab | |
 | Easter break |
-| 03/04 Tue | Server-side programming IV. (cookies and sessions) | |
+| 03/04 Tue | Server-side programming IV. (cookies and sessions) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-iv), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4) |
 | 04/04 Wed | AJAX | |
 | 06/04 Fri | Lab | |
 | 10/04 Tue | Bootstrap | |

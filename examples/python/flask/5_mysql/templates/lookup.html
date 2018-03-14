@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Postcode lookup</h2>
+    <form action="{{ url_for("lookup") }}" method="GET">
+        <input type="text" name="postcode" size="4" value="{{ postcode|default("", true) }}"/>
+        <input type="submit" value="Lookup">
+    </form>
+
+    {% if postcode %}
+        <br />
+        Location: {{ location|default("<em>No matching location</em>", true)|safe }}
+    {% endif %}
+{% endblock %}

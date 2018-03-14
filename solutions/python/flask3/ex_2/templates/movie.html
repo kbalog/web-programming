@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+    <table>
+        <tr class="odd">
+            <td><strong>Title</strong></td>
+            <td>{{ title }}</td>
+        </tr>
+        <tr class="even">
+            <td><strong>Year</strong></td>
+            <td>{{ year }}</td>
+        </tr>
+        <tr class="odd">
+            <td><strong>Rating</strong></td>
+            <td>{{ rating }}</td>
+        </tr>
+        <tr class="even">
+            <td><strong>About</strong></td>
+            <td>{{ synopsis|default("<em>No synopsis is available</em>", true)|safe }}</td>
+        </tr>
+        <tr class="odd">
+            <td><strong>IMDB</strong></td>
+            <td><a href="http://www.imdb.com/title/{{ imdb_id }}"
+                   target="_blank">http://www.imdb.com/title/{{ imdb_id }}</a></td>
+        </tr>
+    </table>
+    <br/>
+    <a href="{{ url_for("index") }}">back to listing</a>
+{% endblock %}

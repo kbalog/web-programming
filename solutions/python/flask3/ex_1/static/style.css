@@ -1,0 +1,17 @@
+.even {
+    background-color: #ECECEC;
+}
+
+.odd {
+    background-color: #CCCCCC;
+}
+
+a:visited {
+    color: blue;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+    padding: 1em;
+}

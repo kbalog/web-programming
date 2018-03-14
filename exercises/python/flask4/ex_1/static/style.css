@@ -1,0 +1,26 @@
+body, html {
+    margin: 0px;
+}
+
+header {
+    background-color: #ececec;
+    border-bottom: 1px solid #3c3c3c;
+    padding: 0.5em;
+}
+
+main {
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+    margin-bottom: 1em;
+}
+
+.success {
+    border: 1px solid green;
+    color: green;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,31 @@
+* {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+a:visited {
+    color: blue;
+}
+
+.error {
+    border: 1px solid red;
+    color: red;
+    padding: 1em;
+}
+
+.success {
+    border: 1px solid green;
+    color: green;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+td {
+    border: 1px solid #cccccc;
+    padding: 0.1em;
+}
+
+.nav {
+    margin-top: 1em;
+    padding-top: 0.5em;
+    border-top: 1px solid #ececec;
+}

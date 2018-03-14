@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login example</title>
+    <style>
+        body, html {
+            margin: 0px;
+        }
+
+        .msg {
+            color: red;
+            border: 1px solid red;
+            margin: 1em;
+            padding: 0.5em;
+        }
+
+        #header {
+            background-color: #ececec;
+            border-bottom: 1px solid #3c3c3c;
+            text-align: right;
+            padding: 5px;
+        }
+
+        #main {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="header">
+    {% if username %}
+        Logged in as {{ username }} | <a href="{{ url_for("logout") }}">logout</a>
+    {% else %}
+        Not logged in | <a href="{{ url_for("login") }}">login</a>
+    {% endif %}
+</div>
+
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+        <div class="msg">
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endwith %}
+
+<div id="main">
+    {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>

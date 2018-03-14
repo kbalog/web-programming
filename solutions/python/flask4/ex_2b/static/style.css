@@ -1,0 +1,15 @@
+.success {
+    border: 1px solid green;
+    color: green;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.error{
+    color: darkred;
+}
+
+td, th {
+    border: 1px solid #ececec;
+    padding: 0.1em;
+}
