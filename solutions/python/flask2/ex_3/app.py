@@ -18,16 +18,16 @@ def index():
 
 
 def used_to_pay(amount):
-    used = {}
+    """Return the bills/coins used as a list of (value, count) tuples."""
+    used = []
     a = amount
-    v = set(VALUES)
-    while a > 0:
-        next = max(v)
-        while a >= next:
-            used[next] = used.get(next, 0) + 1
-            a -= next
-        v.remove(next)
+    for v in sorted(VALUES, reverse=True):
+        c = math.floor(a / v)
+        a %= v
+        if c > 0:
+            used.append((v, c))
     return used
+
 
 @app.route("/pay")
 def pay():

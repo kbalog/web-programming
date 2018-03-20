@@ -19,9 +19,9 @@
 {% if amount is defined %}
     Paying {{ amount }} with the least number of coins/bills:
     <ul>
-    {% for bill, count in used.items() %}
-        <li>{{ count }} x <span class="bill">{{ bill }}</span> </li>
-    {%  endfor %}
+        {% for u in used %}
+        <li>{{ u[1] }} x <span class="bill">{{ u[0] }}</span> </li>
+        {% endfor %}
     </ul>
     <a href="/">Pay again</a>
 {% else %}
