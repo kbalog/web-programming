@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking</title>
+    <style>
+        * {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-weight: lighter;
+        }
+
+        #property, #booking {
+            width: 400px;
+            border: 1px solid #ececec;
+            padding: 10px;
+            margin-bottom: 1em;
+        }
+
+        #property h1 {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #0033cc;
+        }
+
+        .rowhead {
+            font-weight: normal;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="property">
+        <h1>{{ property.name }}</h1>
+        <p>
+            {{ property.address }}<br />
+            {{ property.phone }}<br />
+            {{ property.email }}<br />
+        </p>
+        <img src="{{ property.photo }}" width="100%" alt="{{ property.name }}" />
+    </div>
+
+    <div id="booking">
+        <table>
+            <tr>
+                <td class="rowhead">Your reservation: </td>
+                <td>{{ booking.nights }} night(s), {{ booking.rooms }} room(s)</td>
+            </tr>
+            <tr>
+                <td class="rowhead">Check-in:</td>
+                <td>{{ booking.checkin }}</td>
+            </tr>
+            <tr>
+                <td class="rowhead">Check-out:</td>
+                <td>{{ booking.checkout }}</td>
+            </tr>
+            <tr>
+                <td class="rowhead">Breakfast:</td>
+                <td>Breakfast is {{ "not " if not booking.is_breakfast }}included</td>
+            </tr>
+            <tr>
+                <td class="rowhead">Lunch:</td>
+                <td>Lunch is {{ "not " if not booking.is_lunch }}included</td>
+            </tr>
+            <tr>
+                <td class="rowhead">Dinner:</td>
+                <td>Dinner is {{ "not " if not booking.is_dinner }}included</td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>

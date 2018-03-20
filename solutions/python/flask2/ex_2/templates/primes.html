@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Primes</title>
+</head>
+<body>
+
+{% for n in numbers %}
+    {{ "<strong>"|safe if n}}{{ loop.index }}{{ "</strong>"|safe if n}}{{ "," if not loop.last }}
+{% endfor %}
+
+</body>
+</html>
