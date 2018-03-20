@@ -16,7 +16,7 @@ Complete the missing parts of `app.py` and `booking.html` (under [ex_1](ex_1/)) 
 
 List the numbers between 1 and 20, with prime numbers typeset in boldface.
 
-![Exercise1](images/exercise2.png)
+![Exercise2](images/exercise2.png)
 
 
 ## Exercise #3: Cash machine
@@ -26,6 +26,9 @@ Given an input value (amount to pay), your task is to figure out how to pay that
   * The available bills/coins are defined as a list `VALUES = [1, 5, 10, 20, 50, 100, 500]`
   * You need to optimize for using the minimal number of bills/coins
   * You're not given any starter files for this exercise
+
+![Exercise3](images/exercise3.png)
+![Exercise3/2](images/exercise3_2.png)
 
 
 ## Exercise #4: Top movies

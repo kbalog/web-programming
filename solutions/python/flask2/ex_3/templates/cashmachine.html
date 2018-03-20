@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cash machine</title>
+    <style>
+        .bill {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            padding: 0.1em;
+        }
+        li {
+            margin-bottom: 0.4em;
+        }
+    </style>
+</head>
+<body>
+
+{% if amount is defined %}
+    Paying {{ amount }} with the least number of coins/bills:
+    <ul>
+    {% for bill, count in used.items() %}
+        <li>{{ count }} x <span class="bill">{{ bill }}</span> </li>
+    {%  endfor %}
+    </ul>
+    <a href="/">Pay again</a>
+{% else %}
+    <form action="/pay">
+        Amount to pay: <input type="number" name="amount" size="5" style="width: 5em">
+
+        <input type="submit" value="Pay">
+    </form>
+{% endif %}
+
+</body>
+</html>
