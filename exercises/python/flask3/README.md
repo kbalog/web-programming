@@ -2,7 +2,7 @@
 
   * [MySQL Connector/Python](https://dev.mysql.com/doc/connector-python/en/)
   * [Flask QuickStart](http://flask.pocoo.org/docs/0.12/quickstart/)
-  * [Jinja Templates](http://jinja.pocoo.org/docs/2.9/templates/)
+  * [Jinja Templates](http://jinja.pocoo.org/docs/2.10/templates/)
 
 
 ## Exercise #0: Set up MySQL
@@ -25,7 +25,7 @@
 
 ## Exercise #1: Listing movies
 
-Update [exercise 1 from the last lecture](../../../../solutions/python/flask2/ex_1) such that movies are loaded from the MySQL database.
+Update [Exercise 4 from the last lecture](../../../../solutions/python/flask2/ex_4) such that movies are loaded from the MySQL database.
 
 Specifically,
 
