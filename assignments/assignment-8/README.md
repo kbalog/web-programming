@@ -10,12 +10,13 @@ You can work with your submission from before or can also choose to work with th
     - Store property identifier (as auto increment field), name, location, description, details, and photo (filename)
     -	Add at least 6 different properties to the table
   * Load properties from the database when listing them on the index page. When the "Details" button is clicked, show the details of the selected property on the property page.
+  * The property photos should be stored in a dedicated folder (e.g., `static/images`)
   *	Implement the booking process, which consists of three steps
-    1. Display the property page where the user can select the check-in date and the number of nights
-        - Alternatively, check-out date may also be selected instead of the number of nights
-    2. Providing user details.
+    1. Display the property page, where the user can select the check-in date and the number of nights.
+        - Alternatively, check-out date may also be selected instead of the number of nights.
+    2. Present a form for the user to enter her details.
         - At the top of the page, show the check-in and check-out dates (either as text or as readonly input fields).
-        - A form for providing contact details: name, email, telephone, and billing address (postcode, city, street) are obligatory fields. It's not possible to go to the next step unless these are provided. Additionally, the user may provide comments in a textarea field (it may be empty). You application should "remember" the values the user already filled in (i.e., in case there is an error, only the missing parts need to be completed, the rest of the values are remembered).
+        - A form for providing contact details: name, email, telephone, and address (postcode, city, street, country) are obligatory fields. It's not possible to go to the next step unless these are provided. Additionally, the user may provide comments in a textarea field (it may be empty). You application should "remember" the values the user already filled in (i.e., in case there is an error, only the missing parts need to be completed, the rest of the values are remembered).
     3. Display a confirmation page, listing the property and user details. The user must tick a checkbox saying she accepts the "Terms and Conditions".
         - "Terms and Conditions" should be a link that opens in a new browser window. Make a page with some dummy content.
   * Upon confirmation of the booking, store it in a database and display a confirmation number.
