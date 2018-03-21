@@ -25,7 +25,7 @@
 
 ## Exercise #1: Listing movies
 
-Update [Exercise 4 from the last lecture](../../../../solutions/python/flask2/ex_4) such that movies are loaded from the MySQL database.
+Update [Exercise 4 from the last lecture](../../../solutions/python/flask2/ex_4) such that movies are loaded from the MySQL database.
 
 Specifically,
 
