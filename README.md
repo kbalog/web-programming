@@ -49,10 +49,10 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 03/04 Tue | Server-side programming IV. (cookies and sessions) | [slides](https://speakerdeck.com/kbalog/web-programming-server-side-programming-part-iv), [examples](examples/python/flask), [exercises](exercises/python/flask4), [solutions](solutions/python/flask4) |
 | 04/04 Wed | AJAX | |
 | 06/04 Fri | Lab | |
-| 10/04 Tue | Bootstrap | |
-| 11/04 Wed | Web APIs | |
+| 10/04 Tue | Lab (extra time for assignments) | |
+| 11/04 Wed | Bootstrap | |
 | 13/04 Fri | Lab | |
-| 17/04 Tue | Lab (extra time for assignments) | |
+| 17/04 Tue | Web APIs | |
 | 18/04 Wed | Review + Lab (extra time for assignments) | |
 | 20/04 Fri | Lab | |
 | 24/04 Tue | Trial exam /Part I. | |
