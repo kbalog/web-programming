@@ -21,7 +21,7 @@ Change your solution to Exercise #1 such that the data from the server is reques
 
 ## Exercise #2: Inventory
 
-Assume that there is an inventory database where each item has a 3-digit unique identifier (e.g., `021`, `987`, etc.). For know, this data is stored as an associative array in the php file.
+Assume that there is an inventory database where each item has a 3-digit unique identifier (e.g., `021`, `987`, etc.). For know, this data is stored as a dictionary in `app.py`.
 
   - Complete the `invertory()` method in `app.py` such that an inventory item can be looked up based on its 3-digit identifier. Return the inventory record as a JSON object. For example `inventory?item_id=123` should return
 
