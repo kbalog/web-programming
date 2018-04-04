@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #2: Inventory</title>
+    <script src="/static/exercise2.js"></script>
+    <style>
+        label {
+            display: inline-block;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<form action="#" method="POST">
+
+    <label for="item_id">Item ID:</label> <input type="text" name="item_id" id="item_id" onkeyup="lookup(this.value)">
+    <br /><br />
+
+    <label for="name">Name:</label> <input type="text" name="name" id="name" readonly><br />
+    <label for="brand">Brand:</label> <input type="text" name="brand" id="brand" readonly><br />
+    <label for="size_x">Size:</label> <input type="text" name="size_x" id="size_x" size="3" readonly> cm
+    x <input type="text" name="size_y" id="size_y" size="3" readonly> cm
+    x <input type="text" name="size_z" id="size_z" size="3" readonly> cm
+    <br />
+    <label for="price">Price:</label> <input type="text" name="price" id="price" size="6" readonly> NOK<br />
+    <label for="available">Available:</label> <input type="checkbox" name="available" id="available" disabled><br />
+
+</form>
+
+</body>
+</html>

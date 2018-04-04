@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JSON JavaScript example</title>
+        <script>
+            var obj = {
+                name: "John Smith", 
+                age: 32, 
+                married: true, 
+                interests: [1, 2, 3], 
+                other: {
+                    city: "Stavanger", 
+                    postcode: 4041
+                }
+            };
+            
+            // encode
+            var json_str = JSON.stringify(obj);
+            alert(json_str);
+
+            // decode
+            var obj2 = JSON.parse(json_str);
+            alert(obj2.name);
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

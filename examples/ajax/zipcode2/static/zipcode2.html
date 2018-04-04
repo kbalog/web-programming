@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple AJAX example using jQuery</title>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="/static/zipcode2.js"></script>
+    </head>
+    <body>
+        <form action="#" method="POST">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="name" /></td>
+                </tr>
+                <tr>
+                    <td>Postcode:</td>
+                    <td><input type="text" name="postcode"/></td>
+                </tr>
+                <tr>
+                    <td>Place:</td>
+                    <td><input type="text" name="place" id="place" readonly="true" /></td>
+                </tr>
+                <tr>
+                    <td>Street, house no:</td>
+                    <td><input type="text" name="street" /></td>
+                </tr>
+            </table>
+            <input type="submit" value="Submit" />
+        </form>
+    </body>
+</html>

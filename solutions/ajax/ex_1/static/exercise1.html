@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise #1: Checking username</title>
+    <script src="/static/exercise1.js"></script>
+    <style>
+        #username_status {
+            color: red;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+
+<form action="#" method="POST">
+    <label>Name: <input type="text" name="name"></label><br/>
+    <label>Username: <input type="text" name="username" id="username" onblur="checkUsername(this.value)"></label>
+    <span id="username_status"></span><br/>
+    <label>Email: <input type="email" name="email"></label><br/>
+    <label>Password: <input type="password" name="password"></label><br/>
+    <input type="hidden" name="action" value="register">
+    <input type="submit" id="submit_button" value="Register"/>
+</form>
+
+</body>
+</html>

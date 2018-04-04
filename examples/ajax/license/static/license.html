@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple AJAX example</title>
+    <script src="/static/license.js"></script>
+</head>
+<body>
+<form action="#">  <!-- form action does not matter for now as we don't actually submit the form -->
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" id="name" onkeyup="checkLicense();" /></td>
+        </tr>
+        <tr>
+            <td>License no:</td>
+            <td><input type="text" name="license" id="license" onkeyup="checkLicense();" /></td>
+        </tr>
+    </table>
+    <div id="license_check"></div>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

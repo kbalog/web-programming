@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple AJAX example</title>
+    <script src="/static/zipcode.js"></script>
+</head>
+<body>
+<form action="#">  <!-- form action does not matter for now as we don't actually submit the form -->
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <tr>
+            <td>Postcode:</td>
+            <td><input type="text" name="postcode" onkeyup="getPlace(this.value);"/></td>
+        </tr>
+        <tr>
+            <td>Place:</td>
+            <td><input type="text" name="place" id="place" readonly="true"/></td>
+        </tr>
+        <tr>
+            <td>Street, house no:</td>
+            <td><input type="text" name="street"/></td>
+        </tr>
+    </table>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
