@@ -10,7 +10,7 @@
 | [#6 Gradebook](assignment-6/) | 28/02 | 08/03 12:00 | 0.7p | [solution](https://github.com/uis-dat310-spring2018/solutions/tree/master/assignment-6) |
 | [#7 Circuit Wars](assignment-7/) | 07/03 | 29/03 12:00 | 1p |  |
 | [#8 Booking site](assignment-8/) | 21/03  | 12/04 12:00 | 1.4p |  |
-| #9 AJAX | 04/04 | 19/04 12:00 | 0.9p |  |
+| [#9 AJAX](assignment-9/) | 04/04 | 19/04 12:00 | 0.9p |  |
 | #10 Booking admin | 11/04 | 26/04 12:00 | 1.4p |  |
 
 All questions related to assignments should be sent to dat310help@googlegroups.com.
