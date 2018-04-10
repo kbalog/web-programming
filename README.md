@@ -50,10 +50,10 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 04/04 Wed | AJAX | [slides](https://speakerdeck.com/kbalog/web-programming-ajax), [examples](examples/ajax), [exercises](exercises/ajax), [solutions](solutions/ajax) |
 | 06/04 Fri | Lab | |
 | 10/04 Tue | Lab (extra time for assignments) | |
-| 11/04 Wed | Bootstrap | |
+| 11/04 Wed | *No lecture* | |
 | 13/04 Fri | Lab | |
-| 17/04 Tue | Web APIs | |
-| 18/04 Wed | Best Practices + Review | |
+| 17/04 Tue | Bootstrap | |
+| 18/04 Wed | Web APIs, Best Practices | |
 | 20/04 Fri | Lab | |
 | 24/04 Tue | Trial exam /Part I. | |
 | 25/04 Wed | Trial exam /Part II. | |
