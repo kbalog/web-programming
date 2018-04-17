@@ -52,7 +52,7 @@ This repository is for the 2018 spring edition of the DAT310 Web programming cou
 | 10/04 Tue | Lab (extra time for assignments) | |
 | 11/04 Wed | *No lecture* | |
 | 13/04 Fri | Lab | |
-| 17/04 Tue | Bootstrap | |
+| 17/04 Tue | Bootstrap | [slides](https://speakerdeck.com/kbalog/web-programming-bootstrap), [examples](examples/bootstrap), [exercises](exercises/bootstrap), [solutions](solutions/bootstrap) |
 | 18/04 Wed | Web APIs, Best Practices | |
 | 20/04 Fri | Lab | |
 | 24/04 Tue | Trial exam /Part I. | |
