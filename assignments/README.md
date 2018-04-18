@@ -11,7 +11,7 @@
 | [#7 Circuit Wars](assignment-7/) | 07/03 | 29/03 12:00 | 1p |  |
 | [#8 Booking site](assignment-8/) | 21/03  | 12/04 12:00 | 1.4p |  |
 | [#9 AJAX](assignment-9/) | 04/04 | 19/04 12:00 | 0.9p |  |
-| #10 Booking admin | 18/04 | 03/05 12:00 | 1.4p |  |
+| [#10 Booking admin](assignment-10/) | 18/04 | 10/05 12:00 | 1.4p |  |
 
 All questions related to assignments should be sent to dat310help@googlegroups.com.
 
