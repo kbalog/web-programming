@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Maps example with a marker</title>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var locStavanger = new google.maps.LatLng(58.9700, 5.7331);
+            var mapProp = {
+                center: locStavanger,
+                zoom: 5,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            // marker for Stavanger
+            var marker = new google.maps.Marker({
+                position: locStavanger
+            });
+            marker.setMap(map);
+
+            // info window assigned to the marker
+            var contentString = "Hello there! This is <strong>Stavanger</strong>, the center of the world";
+            var infowindow = new google.maps.InfoWindow({
+                content: contentString
+            });
+            marker.addListener('click', function() {
+                infowindow.open(map, marker);
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+<div id="googleMap" style="width:500px;height:380px;"></div>
+</body>
+</html>

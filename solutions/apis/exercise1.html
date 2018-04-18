@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #1: Displaying hiking route</title>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapProp = {
+                center: new google.maps.LatLng(59.02, 6.6),
+                zoom: 12,
+                mapTypeId: google.maps.MapTypeId.TERRAIN
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            var p1 = new google.maps.LatLng(59.036993, 6.611860);
+            var p2 = new google.maps.LatLng(59.017204, 6.648252);
+            var p3 = new google.maps.LatLng(59.007129, 6.627996);
+            var p4 = new google.maps.LatLng(58.998289, 6.579931);
+            var p5 = new google.maps.LatLng(59.009074, 6.552121);
+            var p6 = new google.maps.LatLng(59.029220, 6.538732);
+            var path = [p1, p2, p3, p4, p5, p6, p1]
+            var hike = new google.maps.Polyline({
+                path: path,
+                strokeColor: "#FF0000",
+                strokeOpacity: 0.8,
+                strokeWeight: 3
+            });
+            hike.setMap(map);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+<body>
+<div id="googleMap" style="width:700px;height:400px;"></div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #3: Photos from Flickr</title>
+    <style>
+        td {
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+<table>
+    {% for photo in photos %}
+    <tr>
+        <td>
+            <a href="{{ photo["link"] }}">
+            <img src="{{ photo["media"]["m"]}}" width="100px"></a>
+        </td>
+        <td>
+            <strong>{{ photo["title"] }}</strong><br/>
+            {{ photo["published"] }}<br/>
+            {{ photo["tags"] }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
