@@ -136,15 +136,15 @@ The logs for all played games can be found under [games](games/).
 
 | | | Player 1 | Result |
 | -- | -- | -- | -- |
-| SF1 | QF1 winner | mnkvm | : |
-| SF1 | QF2 winner | christofferholmesland | : |
-| SF2 | QF3 winner | magn00bs | : |
-| SF2 | QF4 winner | adamj880 | : |
+| SF1 | QF1 winner | mnkvm | **26**:23 |
+| SF1 | QF2 winner | christofferholmesland | 22:**27** |
+| SF2 | QF3 winner | magn00bs | **32**:17 |
+| SF2 | QF4 winner | adamj880 | 18:**31** |
 
 
 ## Final
 
 | | Player 1 | Result |
 | -- | -- | -- |
-| SF1 winner | | : |
-| SF2 winner | | : |
+| SF1 winner | christofferholmesland | : |
+| SF2 winner | magn00bs | : |
