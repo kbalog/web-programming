@@ -148,3 +148,5 @@ The logs for all played games can be found under [games](games/).
 | -- | -- | -- |
 | SF1 winner | mnkvm | **25**:24 |
 | SF2 winner | magn00bs | **25**:24 |
+
+Congratulations to the winner **magn00bs** and runner up **mnkvm**!
