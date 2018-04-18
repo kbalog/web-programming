@@ -1,0 +1,61 @@
+/move/Ridalor/0,0,left
+/move/bjabot12/3,0,left
+/move/Ridalor/0,1,left
+/move/bjabot12/3,1,left
+/move/Ridalor/2,0,left
+/move/bjabot12/3,2,left
+/move/Ridalor/2,1,left
+/move/bjabot12/3,3,left
+/move/Ridalor/3,2,bottom
+/move/bjabot12/3,4,left
+/move/Ridalor/4,0,left
+/move/bjabot12/3,5,left
+/move/Ridalor/0,6,left
+/move/bjabot12/3,6,left
+/move/Ridalor/1,1,left
+/move/bjabot12/3,6,bottom
+/move/Ridalor/0,4,left
+/move/bjabot12/4,6,bottom
+/move/Ridalor/0,5,left
+/move/bjabot12/5,6,bottom
+/move/Ridalor/2,4,left
+/move/bjabot12/6,6,bottom
+/move/Ridalor/3,1,right
+/move/bjabot12/6,6,right
+/move/Ridalor/0,3,left
+/move/bjabot12/6,5,right
+/move/Ridalor/2,5,left
+/move/bjabot12/6,4,right
+/move/Ridalor/0,4,top
+/move/bjabot12/6,3,right
+/move/Ridalor/4,5,top
+/move/bjabot12/6,2,right
+/move/Ridalor/5,4,top
+/move/bjabot12/6,1,right
+/move/Ridalor/1,5,left
+/move/bjabot12/6,0,right
+/move/Ridalor/0,0,top
+/move/bjabot12/6,0,top
+/move/Ridalor/2,2,left
+/move/bjabot12/5,0,top
+/move/Ridalor/5,1,top
+/move/bjabot12/4,0,top
+/move/Ridalor/1,4,top
+/move/bjabot12/3,0,top
+/move/Ridalor/2,3,left
+/move/bjabot12/1,0,top
+/move/Ridalor/0,2,left
+/move/bjabot12/0,6,bottom
+/move/Ridalor/1,6,right
+/move/bjabot12/0,4,bottom
+/move/Ridalor/1,6,top
+/move/bjabot12/2,6,top
+/move/Ridalor/2,0,top
+/move/bjabot12/1,6,bottom
+/move/Ridalor/2,6,bottom
+----
+status: 302
+player_1: Ridalor
+player_2: bjabot12
+score_1: 18
+score_2: 31

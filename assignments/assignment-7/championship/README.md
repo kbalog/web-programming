@@ -96,40 +96,40 @@ The logs for all played games can be found under [games](games/).
 
 ### Group 2A
 
-| # | Player 1 | ... | Wins | Losses | Score |
-| -- |  -- |  -- |  -- |  -- |  -- |
-|  | Ridalor |  |  |  |  |
-|  | mnkvm |  |  |  |  |
-|  | christofferholmesland |  |  |  |  |
-|  | adamj880 |  |  |  |  |
-|  | vetlebredenbekk |  |  |  |  |
-|  | bjabot12 |  |  |  |  |  |
+| # | Player 1 | Ridalor | mnkvm | christofferholmesland | adamj880 | vetlebredenbekk | bjabot12 | Wins | Losses | Score |
+| -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |
+| 1 | mnkvm | **38**:11 | - | **26**:23 | **37**:12 | **40**:9 | **46**:3 | 10 | 0 | 385:105 |
+| 2 | christofferholmesland | **38**:11 | 21:**28** | - | **36**:13 | **39**:10 | **47**:2 | 8 | 2 | 348:142 |
+| 3 | bjabot12 | **29**:20 | 4:**45** | 3:**46** | 3:**46** | **28**:21 | - | 5 | 5 | 181:309 |
+| 4 | adamj880 | **39**:10 | 9:**40** | 17:**32** | - | **43**:6 | 0!:**49** | 4 | 6 | 232:258 |
+| 5 | Ridalor | - | 5:**44** | 24:**25** | **34**:15 | **40**:9 | 18:**31** | 3 | 7 | 213:277 |
+| 6 | vetlebredenbekk | 9:**40** | 8:**41** | 8:**41** | 11:**38** | - | 20:**29** | 0 | 10 | 111:379 |
 
 
 ### Group 2B
 
-| # | Player 1 | ... | Wins | Losses | Score |
-| -- |  -- |  -- |  -- |  -- |  -- |
-|  | MisterOJ |  |  |  |  |
-|  | Eiriksak |  |  |  |  |
-|  | magn00bs |  |  |  |  |
-|  | KarlOstradt |  |  |  |  |
-|  | Kristian-Nesse |  |  |  |  |
-|  | svHvidsten |  |  |  |  |  |
+| # | Player 1 | MisterOJ | Eiriksak | magn00bs | KarlOstradt | Kristian-Nesse | svHvidsten | Wins | Losses | Score |
+| -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |  -- |
+| 1 | magn00bs | **38**:11 | **44**:5 | - | **30**:19 | **48**:1 | **41**:8 | 10 | 0 | 419:71 |
+| 2 | Eiriksak | **35**:14 | - | 1:**48** | **28**:21 | **44**:5 | **35**:14 | 8 | 2 | 296:194 |
+| 3 | KarlOstradt | **44**:5 | 21:**28** | 13:**36** | - | **49**:0 | 0!:**49** | 5 | 5 | 307:183 |
+| 4 | svHvidsten | 0!:**49** | 14:**35** | 7:**42** | 0!:**49** | **48**:1 | - | 4 | 6 | 206:284 |
+| 5 | MisterOJ | - | 11:**38** | 4:**45** | 7:**42** | **38**:11 | 21:**28** | 3 | 7 | 200:290 |
+| 6 | Kristian-Nesse | 9:**40** | 2:**47** | 2:**47** | 0:**49** | - | 11:**38** | 0 | 10 | 42:448 |
 
 
 ## Quarterfinals
 
 | | | Player 1 | Result |
 | -- | -- | -- | -- |
-| QF1 | Group 2A #1 | | : |
-| QF1 | Group 2B #3 | | : |
-| QF2 | Group 2A #2 | | : |
-| QF2 | Group 2B #4 | | : |
-| QF3 | Group 2A #3 | | : |
-| QF3 | Group 2B #1 | | : |
-| QF4 | Group 2A #4 | | : |
-| QF4 | Group 2B #2 | | : |
+| QF1 | Group 2A #1 | mnkvm | : |
+| QF1 | Group 2B #3 | KarlOstradt | : |
+| QF2 | Group 2A #2 | christofferholmesland | : |
+| QF2 | Group 2B #4 | svHvidsten | : |
+| QF3 | Group 2A #3 | bjabot12 | : |
+| QF3 | Group 2B #1 | magn00bs | : |
+| QF4 | Group 2A #4 | adamj880 | : |
+| QF4 | Group 2B #2 | Eiriksak | : |
 
 
 ## Semifinals
