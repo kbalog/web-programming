@@ -1,0 +1,14 @@
+/move/torank/6,5,top
+/move/ragnvaldf/0,0,top
+/move/torank/0,6,bottom
+/move/ragnvaldf/2,2,bottom
+/move/torank/5,3,top
+/move/ragnvaldf/3,0,right
+/move/torank/4,2,bottom
+/move/torank/2,6,left
+----
+status: 401
+player_1: torank
+player_2: ragnvaldf
+score_1: 0
+score_2: 49

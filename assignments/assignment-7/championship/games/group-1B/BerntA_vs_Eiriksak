@@ -1,0 +1,12 @@
+/move/BerntA/0,4,bottom
+/move/eiriksak/4,6,bottom
+/move/BerntA/0,2,right
+/move/eiriksak/5,6,bottom
+/move/BerntA/3,6,bottom
+/move/BerntA/5,0,bottom
+----
+status: 401
+player_1: BerntA
+player_2: eiriksak
+score_1: 0
+score_2: 49

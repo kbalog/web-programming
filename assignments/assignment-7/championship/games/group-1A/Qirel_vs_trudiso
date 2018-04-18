@@ -1,0 +1,64 @@
+/move/Qirel/4,2,top
+/move/trudiso/1,1,top
+/move/Qirel/2,1,top
+/move/trudiso/2,2,right
+/move/Qirel/2,3,right
+/move/trudiso/1,6,top
+/move/Qirel/2,6,top
+/move/trudiso/5,2,bottom
+/move/Qirel/6,2,bottom
+/move/trudiso/2,0,left
+/move/Qirel/2,1,left
+/move/trudiso/0,5,top
+/move/Qirel/1,5,top
+/move/trudiso/6,2,left
+/move/Qirel/6,3,left
+/move/trudiso/5,3,bottom
+/move/Qirel/6,3,bottom
+/move/trudiso/4,6,bottom
+/move/Qirel/5,6,bottom
+/move/trudiso/0,0,left
+/move/Qirel/0,1,left
+/move/trudiso/5,0,bottom
+/move/Qirel/6,0,bottom
+/move/trudiso/3,3,top
+/move/Qirel/4,3,top
+/move/trudiso/0,2,bottom
+/move/Qirel/1,2,bottom
+/move/trudiso/3,1,left
+/move/Qirel/3,0,left
+/move/trudiso/6,1,right
+/move/Qirel/6,2,right
+/move/trudiso/2,4,left
+/move/Qirel/2,5,left
+/move/trudiso/3,2,top
+/move/Qirel/2,2,top
+/move/trudiso/5,1,right
+/move/Qirel/5,0,right
+/move/trudiso/1,4,top
+/move/Qirel/2,4,top
+/move/trudiso/0,6,top
+/move/Qirel/0,2,right
+/move/trudiso/4,4,right
+/move/Qirel/4,5,right
+/move/trudiso/3,0,top
+/move/Qirel/4,0,top
+/move/trudiso/6,0,top
+/move/Qirel/6,6,right
+/move/trudiso/0,1,top
+/move/Qirel/3,4,top
+/move/trudiso/0,5,right
+/move/Qirel/0,6,right
+/move/trudiso/4,5,left
+/move/Qirel/4,6,left
+/move/trudiso/5,4,right
+/move/Qirel/5,5,right
+/move/trudiso/6,4,right
+/move/Qirel/6,5,right
+/move/trudiso/4,4,top
+----
+status: 501
+player_1: Qirel
+player_2: trudiso
+score_1: 0
+score_2: 49

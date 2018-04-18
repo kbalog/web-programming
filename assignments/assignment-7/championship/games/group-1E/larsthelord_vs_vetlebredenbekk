@@ -1,0 +1,24 @@
+/move/larsthelord/4,6,right
+/move/vetlebredenbekk/4,3,top
+/move/larsthelord/1,3,right
+/move/vetlebredenbekk/0,3,bottom
+/move/larsthelord/3,2,right
+/move/vetlebredenbekk/6,2,right
+/move/larsthelord/2,6,bottom
+/move/vetlebredenbekk/5,4,left
+/move/larsthelord/4,5,left
+/move/vetlebredenbekk/0,5,top
+/move/larsthelord/2,4,right
+/move/vetlebredenbekk/0,3,top
+/move/larsthelord/2,1,right
+/move/vetlebredenbekk/3,0,top
+/move/larsthelord/5,4,bottom
+/move/vetlebredenbekk/6,2,bottom
+/move/larsthelord/2,0,right
+/move/larsthelord/4,4,top
+----
+status: 401
+player_1: larsthelord
+player_2: vetlebredenbekk
+score_1: 0
+score_2: 49

@@ -1,0 +1,31 @@
+/move/bjabot12/3,0,left
+/move/UnivNantes/3,0,top
+/move/bjabot12/3,1,left
+/move/UnivNantes/2,1,bottom
+/move/bjabot12/3,2,left
+/move/UnivNantes/2,3,right
+/move/bjabot12/3,4,left
+/move/UnivNantes/2,4,bottom
+/move/bjabot12/3,5,left
+/move/UnivNantes/2,6,right
+/move/bjabot12/3,6,bottom
+/move/UnivNantes/3,5,bottom
+/move/bjabot12/4,6,bottom
+/move/UnivNantes/3,6,right
+/move/bjabot12/5,6,bottom
+/move/UnivNantes/3,4,bottom
+/move/bjabot12/6,6,bottom
+/move/UnivNantes/3,5,right
+/move/bjabot12/6,6,right
+/move/UnivNantes/4,5,bottom
+/move/bjabot12/6,5,right
+/move/UnivNantes/4,6,right
+/move/bjabot12/6,4,right
+/move/UnivNantes/3,3,bottom
+/move/bjabot12/6,3,right
+----
+status: 502
+player_1: bjabot12
+player_2: UnivNantes
+score_1: 49
+score_2: 0

@@ -1,0 +1,26 @@
+/move/Gamefreek0/0,0,top
+/move/mnkvm/2,1,right
+/move/Gamefreek0/1,0,top
+/move/mnkvm/2,1,bottom
+/move/Gamefreek0/2,0,top
+/move/mnkvm/4,1,right
+/move/Gamefreek0/3,0,top
+/move/mnkvm/0,4,left
+/move/Gamefreek0/4,0,top
+/move/mnkvm/3,5,bottom
+/move/Gamefreek0/5,0,top
+/move/mnkvm/1,2,bottom
+/move/Gamefreek0/6,0,top
+/move/mnkvm/5,4,bottom
+/move/Gamefreek0/0,0,left
+/move/mnkvm/4,3,bottom
+/move/Gamefreek0/6,0,right
+/move/mnkvm/0,3,left
+/move/Gamefreek0/0,1,left
+/move/Gamefreek0/0,1,left
+----
+status: 401
+player_1: Gamefreek0
+player_2: mnkvm
+score_1: 0
+score_2: 49

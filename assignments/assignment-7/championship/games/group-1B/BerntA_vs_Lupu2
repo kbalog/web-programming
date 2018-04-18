@@ -1,0 +1,12 @@
+/move/BerntA/2,5,right
+/move/Lupu2/2,5,left
+/move/BerntA/4,6,top
+/move/Lupu2/4,6,left
+/move/BerntA/3,4,left
+/move/BerntA/2,4,left
+----
+status: 401
+player_1: BerntA
+player_2: Lupu2
+score_1: 0
+score_2: 49

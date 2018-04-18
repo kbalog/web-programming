@@ -1,0 +1,10 @@
+/move/elyte5star/3,2,left
+/move/Chrystallic/1,6,top
+/move/elyte5star/6,5,left
+/move/elyte5star/6,3,right
+----
+status: 401
+player_1: elyte5star
+player_2: Chrystallic
+score_1: 0
+score_2: 49

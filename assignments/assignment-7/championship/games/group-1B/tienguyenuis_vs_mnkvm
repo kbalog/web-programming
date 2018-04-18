@@ -1,0 +1,13 @@
+/move/tienguyenuis/0,0,top
+/move/mnkvm/0,1,left
+/move/tienguyenuis/0,0,left
+/move/mnkvm/1,0,top
+/move/tienguyenuis/0,0,bottom
+/move/mnkvm/0,0,right
+/move/tienguyenuis/1,0,bottom
+----
+status: 502
+player_1: tienguyenuis
+player_2: mnkvm
+score_1: 49
+score_2: 0

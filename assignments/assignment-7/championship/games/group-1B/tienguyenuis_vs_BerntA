@@ -1,0 +1,14 @@
+/move/tienguyenuis/0,0,top
+/move/BerntA/1,2,bottom
+/move/tienguyenuis/0,0,left
+/move/BerntA/0,3,right
+/move/tienguyenuis/0,0,bottom
+/move/BerntA/1,0,bottom
+/move/tienguyenuis/1,0,right
+/move/tienguyenuis/1,0,right
+----
+status: 401
+player_1: tienguyenuis
+player_2: BerntA
+score_1: 0
+score_2: 49

@@ -1,0 +1,24 @@
+/move/UnivNantes/6,5,bottom
+/move/sirimykland/6,6,right
+/move/UnivNantes/5,5,bottom
+/move/sirimykland/6,6,bottom
+/move/UnivNantes/5,6,bottom
+/move/sirimykland/6,6,left
+/move/UnivNantes/5,5,left
+/move/sirimykland/5,6,left
+/move/UnivNantes/4,6,bottom
+/move/sirimykland/4,6,top
+/move/UnivNantes/3,1,top
+/move/sirimykland/4,6,left
+/move/UnivNantes/4,1,top
+/move/sirimykland/3,6,left
+/move/UnivNantes/5,1,top
+/move/sirimykland/3,6,bottom
+/move/UnivNantes/6,1,top
+/move/sirimykland/3,6,top
+----
+status: 501
+player_1: UnivNantes
+player_2: sirimykland
+score_1: 0
+score_2: 49

@@ -1,0 +1,58 @@
+/move/Lupu2/2,4,left
+/move/Gamefreek0/0,0,top
+/move/Lupu2/2,4,bottom
+/move/Gamefreek0/1,0,top
+/move/Lupu2/0,0,left
+/move/Gamefreek0/2,0,top
+/move/Lupu2/1,4,left
+/move/Gamefreek0/3,0,top
+/move/Lupu2/2,5,left
+/move/Gamefreek0/4,0,top
+/move/Lupu2/4,0,left
+/move/Gamefreek0/5,0,top
+/move/Lupu2/0,4,left
+/move/Gamefreek0/6,0,top
+/move/Lupu2/1,0,left
+/move/Gamefreek0/6,0,right
+/move/Lupu2/0,0,bottom
+/move/Gamefreek0/0,1,left
+/move/Lupu2/2,0,left
+/move/Gamefreek0/6,1,right
+/move/Lupu2/1,0,bottom
+/move/Gamefreek0/0,2,left
+/move/Lupu2/5,0,left
+/move/Gamefreek0/6,2,right
+/move/Lupu2/4,0,bottom
+/move/Gamefreek0/0,3,left
+/move/Lupu2/0,2,bottom
+/move/Gamefreek0/6,3,right
+/move/Lupu2/6,3,left
+/move/Gamefreek0/6,4,right
+/move/Lupu2/6,4,left
+/move/Gamefreek0/0,5,left
+/move/Lupu2/5,3,left
+/move/Gamefreek0/6,5,right
+/move/Lupu2/5,4,left
+/move/Gamefreek0/0,6,left
+/move/Lupu2/1,1,left
+/move/Gamefreek0/6,6,right
+/move/Lupu2/0,1,bottom
+/move/Gamefreek0/0,6,bottom
+/move/Lupu2/0,2,right
+/move/Gamefreek0/1,6,bottom
+/move/Lupu2/4,1,left
+/move/Gamefreek0/2,6,bottom
+/move/Lupu2/6,1,left
+/move/Gamefreek0/3,6,bottom
+/move/Lupu2/3,1,left
+/move/Gamefreek0/4,6,bottom
+/move/Lupu2/1,5,left
+/move/Gamefreek0/5,6,bottom
+/move/Lupu2/6,6,left
+/move/Gamefreek0/6,6,bottom
+----
+status: 302
+player_1: Lupu2
+player_2: Gamefreek0
+score_1: 5
+score_2: 44

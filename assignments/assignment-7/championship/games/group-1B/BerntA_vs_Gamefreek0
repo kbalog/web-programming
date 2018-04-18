@@ -1,0 +1,47 @@
+/move/BerntA/5,3,right
+/move/Gamefreek0/0,0,top
+/move/BerntA/6,0,right
+/move/Gamefreek0/1,0,top
+/move/BerntA/2,0,top
+/move/Gamefreek0/3,0,top
+/move/BerntA/6,3,right
+/move/Gamefreek0/4,0,top
+/move/BerntA/5,2,right
+/move/Gamefreek0/5,0,top
+/move/BerntA/6,5,left
+/move/Gamefreek0/6,0,top
+/move/BerntA/6,4,right
+/move/Gamefreek0/0,0,left
+/move/BerntA/6,1,right
+/move/Gamefreek0/0,1,left
+/move/BerntA/6,4,left
+/move/Gamefreek0/0,2,left
+/move/BerntA/6,5,right
+/move/Gamefreek0/6,2,right
+/move/BerntA/5,1,right
+/move/Gamefreek0/0,3,left
+/move/BerntA/6,6,top
+/move/Gamefreek0/0,4,left
+/move/BerntA/5,5,bottom
+/move/Gamefreek0/0,5,left
+/move/BerntA/6,0,left
+/move/Gamefreek0/0,6,left
+/move/BerntA/6,6,right
+/move/Gamefreek0/0,6,bottom
+/move/BerntA/6,6,left
+/move/Gamefreek0/1,6,bottom
+/move/BerntA/4,5,bottom
+/move/Gamefreek0/2,6,bottom
+/move/BerntA/5,0,bottom
+/move/Gamefreek0/3,6,bottom
+/move/BerntA/4,0,bottom
+/move/Gamefreek0/4,6,bottom
+/move/BerntA/2,0,bottom
+/move/Gamefreek0/5,6,bottom
+/move/BerntA/6,6,bottom
+----
+status: 302
+player_1: BerntA
+player_2: Gamefreek0
+score_1: 7
+score_2: 42

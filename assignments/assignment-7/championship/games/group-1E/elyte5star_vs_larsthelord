@@ -1,0 +1,14 @@
+/move/elyte5star/1,4,top
+/move/larsthelord/2,3,right
+/move/elyte5star/2,3,bottom
+/move/larsthelord/2,6,left
+/move/elyte5star/0,4,right
+/move/larsthelord/2,3,top
+/move/elyte5star/3,4,top
+/move/elyte5star/6,4,left
+----
+status: 401
+player_1: elyte5star
+player_2: larsthelord
+score_1: 0
+score_2: 49

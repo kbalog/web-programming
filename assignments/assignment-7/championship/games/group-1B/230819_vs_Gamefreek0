@@ -1,0 +1,16 @@
+/move/a/4,2,top
+/move/Gamefreek0/0,0,top
+/move/a/5,2,top
+/move/Gamefreek0/1,0,top
+/move/a/3,5,left
+/move/Gamefreek0/2,0,top
+/move/a/0,0,left
+/move/Gamefreek0/3,0,top
+/move/a/0,6,left
+/move/a/6,4,right
+----
+status: 401
+player_1: a
+player_2: Gamefreek0
+score_1: 0
+score_2: 49

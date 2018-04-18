@@ -1,0 +1,34 @@
+/move/0xf8f8ff/0,0,top
+/move/HenrikHub/0,0,bottom
+/move/0xf8f8ff/0,0,right
+/move/HenrikHub/0,0,left
+/move/0xf8f8ff/1,0,top
+/move/HenrikHub/2,0,top
+/move/0xf8f8ff/1,0,right
+/move/HenrikHub/1,0,bottom
+/move/0xf8f8ff/2,0,right
+/move/HenrikHub/2,0,bottom
+/move/0xf8f8ff/3,0,top
+/move/HenrikHub/4,0,left
+/move/0xf8f8ff/3,0,bottom
+/move/HenrikHub/5,0,right
+/move/0xf8f8ff/4,0,top
+/move/HenrikHub/4,1,left
+/move/0xf8f8ff/4,0,right
+/move/HenrikHub/4,0,bottom
+/move/0xf8f8ff/5,0,top
+/move/HenrikHub/5,0,bottom
+/move/0xf8f8ff/6,0,top
+/move/HenrikHub/6,1,right
+/move/0xf8f8ff/6,0,right
+/move/HenrikHub/6,0,bottom
+/move/0xf8f8ff/0,1,right
+/move/HenrikHub/0,2,bottom
+/move/0xf8f8ff/0,1,bottom
+/move/0xf8f8ff/0,1,bottom
+----
+status: 401
+player_1: 0xf8f8ff
+player_2: HenrikHub
+score_1: 0
+score_2: 49

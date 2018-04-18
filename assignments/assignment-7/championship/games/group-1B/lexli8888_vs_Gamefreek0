@@ -1,0 +1,60 @@
+/move/bose/1,2,bottom
+/move/Gamefreek0/0,0,top
+/move/bose/0,0,bottom
+/move/Gamefreek0/1,0,top
+/move/bose/1,0,bottom
+/move/Gamefreek0/2,0,top
+/move/bose/2,0,bottom
+/move/Gamefreek0/3,0,top
+/move/bose/3,0,bottom
+/move/Gamefreek0/4,0,top
+/move/bose/4,0,bottom
+/move/Gamefreek0/5,0,top
+/move/bose/5,0,bottom
+/move/Gamefreek0/6,0,top
+/move/bose/6,0,bottom
+/move/Gamefreek0/0,0,left
+/move/bose/0,0,right
+/move/Gamefreek0/6,0,right
+/move/bose/3,5,left
+/move/Gamefreek0/0,1,left
+/move/bose/4,5,bottom
+/move/Gamefreek0/6,1,right
+/move/bose/6,1,left
+/move/Gamefreek0/0,2,left
+/move/bose/6,1,bottom
+/move/Gamefreek0/6,2,right
+/move/bose/6,2,left
+/move/Gamefreek0/0,3,left
+/move/bose/6,2,bottom
+/move/Gamefreek0/6,3,right
+/move/bose/6,3,left
+/move/Gamefreek0/0,4,left
+/move/bose/6,3,bottom
+/move/Gamefreek0/6,4,right
+/move/bose/6,4,left
+/move/Gamefreek0/0,5,left
+/move/bose/6,4,bottom
+/move/Gamefreek0/6,5,right
+/move/bose/6,5,left
+/move/Gamefreek0/0,6,left
+/move/bose/6,5,bottom
+/move/Gamefreek0/6,6,right
+/move/bose/6,6,left
+/move/Gamefreek0/0,6,bottom
+/move/bose/6,6,bottom
+/move/Gamefreek0/1,6,bottom
+/move/bose/2,2,top
+/move/Gamefreek0/2,6,bottom
+/move/bose/2,4,bottom
+/move/Gamefreek0/3,6,bottom
+/move/bose/0,5,top
+/move/Gamefreek0/4,6,bottom
+/move/bose/0,2,top
+/move/Gamefreek0/5,6,bottom
+----
+status: 302
+player_1: bose
+player_2: Gamefreek0
+score_1: 7
+score_2: 42

@@ -1,0 +1,16 @@
+/move/durdal/2,2,top
+/move/HenrikHub/2,2,bottom
+/move/durdal/6,6,right
+/move/HenrikHub/6,6,left
+/move/durdal/3,0,left
+/move/HenrikHub/3,0,top
+/move/durdal/2,2,left
+/move/HenrikHub/2,2,right
+/move/durdal/3,2,top
+/move/durdal/0,0,top
+----
+status: 401
+player_1: durdal
+player_2: HenrikHub
+score_1: 0
+score_2: 49

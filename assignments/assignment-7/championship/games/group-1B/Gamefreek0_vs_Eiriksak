@@ -1,0 +1,46 @@
+/move/Gamefreek0/0,0,top
+/move/eiriksak/4,6,bottom
+/move/Gamefreek0/1,0,top
+/move/eiriksak/5,6,bottom
+/move/Gamefreek0/2,0,top
+/move/eiriksak/5,6,right
+/move/Gamefreek0/3,0,top
+/move/eiriksak/6,5,bottom
+/move/Gamefreek0/4,0,top
+/move/eiriksak/6,5,right
+/move/Gamefreek0/5,0,top
+/move/eiriksak/6,4,right
+/move/Gamefreek0/6,0,top
+/move/eiriksak/6,4,top
+/move/Gamefreek0/0,0,left
+/move/eiriksak/5,4,top
+/move/Gamefreek0/6,0,right
+/move/eiriksak/4,4,top
+/move/Gamefreek0/0,1,left
+/move/eiriksak/4,4,left
+/move/Gamefreek0/6,1,right
+/move/eiriksak/0,6,bottom
+/move/Gamefreek0/0,2,left
+/move/eiriksak/1,6,bottom
+/move/Gamefreek0/6,2,right
+/move/eiriksak/1,6,right
+/move/Gamefreek0/0,3,left
+/move/eiriksak/2,5,bottom
+/move/Gamefreek0/6,3,right
+/move/eiriksak/2,5,right
+/move/Gamefreek0/0,4,left
+/move/eiriksak/2,4,right
+/move/Gamefreek0/0,5,left
+/move/eiriksak/2,4,top
+/move/Gamefreek0/0,6,left
+/move/eiriksak/4,2,bottom
+/move/Gamefreek0/6,6,right
+/move/eiriksak/6,6,bottom
+/move/Gamefreek0/2,6,bottom
+/move/eiriksak/3,6,bottom
+----
+status: 302
+player_1: Gamefreek0
+player_2: eiriksak
+score_1: 0
+score_2: 49

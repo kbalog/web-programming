@@ -1,0 +1,24 @@
+/move/UnivNantes/2,6,bottom
+/move/svHvidsten/0,0,top
+/move/UnivNantes/1,0,top
+/move/svHvidsten/0,1,top
+/move/UnivNantes/1,1,top
+/move/svHvidsten/0,2,top
+/move/UnivNantes/1,2,top
+/move/svHvidsten/0,3,top
+/move/UnivNantes/1,3,top
+/move/svHvidsten/0,4,top
+/move/UnivNantes/1,4,top
+/move/svHvidsten/0,5,top
+/move/UnivNantes/1,5,top
+/move/svHvidsten/0,6,top
+/move/UnivNantes/1,6,top
+/move/svHvidsten/2,0,top
+/move/UnivNantes/2,6,top
+/move/svHvidsten/2,1,top
+----
+status: 501
+player_1: UnivNantes
+player_2: svHvidsten
+score_1: 0
+score_2: 49
