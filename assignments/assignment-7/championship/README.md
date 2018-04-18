@@ -146,5 +146,5 @@ The logs for all played games can be found under [games](games/).
 
 | | Player 1 | Result |
 | -- | -- | -- |
-| SF1 winner | christofferholmesland | : |
+| SF1 winner | mnkvm | : |
 | SF2 winner | magn00bs | : |
