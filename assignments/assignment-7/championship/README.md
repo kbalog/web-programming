@@ -122,24 +122,24 @@ The logs for all played games can be found under [games](games/).
 
 | | | Player 1 | Result |
 | -- | -- | -- | -- |
-| QF1 | Group 2A #1 | mnkvm | : |
-| QF1 | Group 2B #3 | KarlOstradt | : |
-| QF2 | Group 2A #2 | christofferholmesland | : |
-| QF2 | Group 2B #4 | svHvidsten | : |
-| QF3 | Group 2A #3 | bjabot12 | : |
-| QF3 | Group 2B #1 | magn00bs | : |
-| QF4 | Group 2A #4 | adamj880 | : |
-| QF4 | Group 2B #2 | Eiriksak | : |
+| QF1 | Group 2A #1 | mnkvm | **39**:10 |
+| QF1 | Group 2B #3 | KarlOstradt | 0!:**49** |
+| QF2 | Group 2A #2 | christofferholmesland | **42**:7 |
+| QF2 | Group 2B #4 | svHvidsten | 9:**40** |
+| QF3 | Group 2A #3 | bjabot12 | 5:**44** |
+| QF3 | Group 2B #1 | magn00bs | **44**:5 |
+| QF4 | Group 2A #4 | adamj880 | **41**:8 |
+| QF4 | Group 2B #2 | Eiriksak | 1:**48** |
 
 
 ## Semifinals
 
 | | | Player 1 | Result |
 | -- | -- | -- | -- |
-| SF1 | QF1 winner | | : |
-| SF1 | QF2 winner | | : |
-| SF2 | QF3 winner | | : |
-| SF2 | QF4 winner | | : |
+| SF1 | QF1 winner | mnkvm | : |
+| SF1 | QF2 winner | christofferholmesland | : |
+| SF2 | QF3 winner | magn00bs | : |
+| SF2 | QF4 winner | adamj880 | : |
 
 
 ## Final
