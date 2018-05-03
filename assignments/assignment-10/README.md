@@ -44,4 +44,44 @@ Commit and push files to GitHub. You also need to submit a dump of your database
 
 # Øving 10 - Booking admin
 
-*Norsk oversettelse kommer snart.*
+## Oppgave
+
+Din oppgave er å utvikle en admin back-end for booking-siden ved bruk av en kombinasjon av teknologier (Flask, MySQL, Bootstrap).
+
+Det finnes ingen startfiler for denne oppgaven.
+Du må bruke Flask for templating, Bootstrap og MySQL for implementering av funksjonaliteten beskrevet under. Det er tillat å bruke eksterne Python packages/modules og Bootstrap components, plugins eller add-ons. En liste av ressurser kan bli funnet på bunnen av oppgavebeskrivelsen.
+
+  * Innlogging
+    - All funksjonalitet beskrevet under skal bare være tilgjengelig for brukere logget inn som admin. Innlogging er basert på kombinasjon av brukernavn og passord.
+    - Det er ikke nødvendig å implementere en front-end funsjonalitet for å legge til nye admin-brukere. Men du må legge til en testbruker i din databasedump som vi kan bruke til testing, bruker: "test", passord:"dat310#A10". Du må lagre passordet på en sikker måte i databasen (ergo, ingen raw passord streng).
+  * Eiendomshåndtering
+    - Brukeren må ha muligheten til å liste opp, legge til, slette og endre eiendommer.
+    - På eiendommenes edit/add-form, sjekk at
+        - Eiendomsnavn, lokasjon og beskrivelse ikke er tomt
+        - Bilde er gitt
+    - Hvis en feil oppstår skal det vises en alert og formverdiene som allerede er tastet inn skal huskes.
+    - Vær oppmerksom på at det er en del av oppgaven å kunne modifisere eiendomsbildene. Nye eiendommer kan bare legges til hvis et bilde er gitt.
+  * Bookinghåndtering
+    - Admin-brukeren kan liste opp alle bookinger som er registrert.
+    - Når man klikker inn på en booking skal det vises bookingdetaljer med link til eiendommens side.
+    - Din database skal inneholde minst 20 bookinger (du kan generere "fake bookings" med et skript).
+  * Statistikk
+    - Gi et plott som viser antall bookinger over tid (f.eks. antall bookinger hver dag).
+    - Gi en liste av de mest populære eiendommene, dvs. eiendommer det har blitt bestilt mest av. Vis eiendoms-id, navn, lokasjon og totalt antall bookinger av eiendommen.
+  * Generelt
+    - Når eiendommer eller bookinger listes opp, vis maks 10 elementer per side og la brukeren bla mellom sider.
+    - Alle former og alert/success meldinger skal også styles ved hjelp av Bootstrap
+
+
+Det er opp til deg hvordan du organiserer funksjonaliteten på admin-brukergrensesnittet (dvs. hvilke menypunkter du har med, etc.). Noen eksempler med skjermbilder for en liknende oppgave er gitt i Ressurs-seksjonen.
+
+Commit og push filene til GitHub. Du må også submitte en dump av databasen din i en `database.sql` fil. Kjøring av denne filen skal lage alle nødvendige tabeller for å kunne bruke din applikasjon og den skal sette inn eiendom- og bookingdata.
+
+
+## Ressurser
+
+  * Skjermbilder fra fjorårets (liknende) oppgave kan bli funnet under [screenshots](screenshots/).
+  * Et innloggingseksempel kan bli funnet [under flask-eksemplene](/examples/python/flask/9_login).
+  * Et filopplastningseksempel kan bli funnet [under flask-eksemplene](/examples/python/flask/8_file_upload). Se også [dokumentasjon for Flask](http://flask.pocoo.org/docs/0.12/patterns/fileuploads/).
+  * Du bruke et JavaScript bibliotek for plotting, f.eks., [D3.js](https://d3js.org/), [Chart.js](http://www.chartjs.org/), [CanvasJS](http://canvasjs.com/), eller [ett av disse bibliotekene](https://www.sitepoint.com/15-best-javascript-charting-libraries/).
+    - Noen spesifikke eksempler ved bruk av [D3.js](http://bl.ocks.org/d3noob/8952219), [Chart.js](http://www.chartjs.org/docs/#line-chart-introduction), or [CanvasJS](http://canvasjs.com/html5-javascript-line-chart/).
